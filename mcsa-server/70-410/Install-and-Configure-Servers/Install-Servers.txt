@@ -1,0 +1,11 @@
+System req.
+  1.4 GHz and 64bit
+  512MB RAM
+  32GB disk
+
+Powershell:
+  installing gui; converting to gui
+    Install-WindowsFeature Server-Gui-Shell, Server-Gui-Mgmt-Infra
+  removing gui; converting to core
+    Uninstall-WindowsFeature Server-Gui-Shell, Server-Gui-Mgmt-Infra
+
