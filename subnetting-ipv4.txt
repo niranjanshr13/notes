@@ -1,0 +1,22 @@
+# this note is about:
+# - know how to subnetting works.
+# - what is network address 
+# - broadcast will be.
+# - how many host will be there.
+ for example:
+  192.168.2.64/26
+  26 = subnet mask; that means.
+    26's one's and reset of the octet is zero's
+  192.168.2.64 = convert into binary octet,
+then,
+  now creating imaginary line after the last 1's from subnet. to find all the objective above.
+    network address: 0's part = 192.168.2.64
+    broadcast address: 192.168.2.127
+    host = between network address to broadvast address.
+      hosts: 192.168.2.65 - 192.168.2.126
+
+
+
+Reference:
+---------
+https://www.youtube.com/watch?v=nFYilGQ-p-8
