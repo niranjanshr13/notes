@@ -1,0 +1,30 @@
+Accident:
+  Accident file report: 10 days
+    Aid the injured driver but don't move him.
+  Think before you take action.
+Alcohol/Drugs:
+  Alcohol: Depressant
+  Drunk: Take a cab
+  Alcohol can:
+    Impair judgement
+    Reduce your reaction time
+    Reduce the ability to recover fom glare
+  Clear 3 beers in person system: 3 hrs
+  Affect driving: 1 beer
+  Blood Alcohol Content(BAC): 0.08
+  12 ounch beer cleared: 1 hrs
+  Don't take prescription with alcohol.
+  Sober up: wait 3 hrs to process the alcohol.
+  Before taking driving check prescription.
+  Affect the ability of driving: Cold Tablets, Marijuana
+  BAC isn't: depends upon fit.
+Intersection:  
+  Intersection with stop sign and crosswalk: Stop or slow down the speed before the crosswalk.
+  Driver who is going straight: have right of way.
+  Green light and blockade in intersection: Stop and proceed when the traffic clears the intersection.
+  Turning left on green light: Proceed slightly into the intersection, yield.
+  Let the traffic clear and move.
+  Waiting Intersection to complete a left turn: Signal and keep your wheels straight.
+  Cannot block intersection
+  The vehicle on tight goes first, if the two vehicle in intersection.
+Common, Guide Sign: Later
