@@ -28,5 +28,10 @@ Intersection:
   Cannot block intersection
   The vehicle on tight goes first, if the two vehicle in intersection.
 Lane Change
-  
+  Allowed to cross double solid yellow line: Turning a driveway
+  Allowed to cross single solid white line in highway: Traffic conditions require you to do
+  Don't assume that other driver will make space to pass: When you make a pass for the other driver
+  Cross a double, yellow line to pass another vehicle: Broken line on your side of the road.
+  Allowed to drive in a bike lane: Planning to turn tight within 200 feet.
+  Allow to cross single broken white or yellow line, but not casing interfer in traffic
 Common, Guide Sign: Later
