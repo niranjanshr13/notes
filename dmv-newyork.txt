@@ -27,4 +27,6 @@ Intersection:
   Waiting Intersection to complete a left turn: Signal and keep your wheels straight.
   Cannot block intersection
   The vehicle on tight goes first, if the two vehicle in intersection.
+Lane Change
+  
 Common, Guide Sign: Later
