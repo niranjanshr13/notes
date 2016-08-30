@@ -1,0 +1,14 @@
+70-410
+Migration:
+	Requirement background:
+		Migration from W2K3 SP2/R2, W2k8 FUll R2, WIN-12 FULL/CORE. 
+		Cannot be Migrate from W2K8 core.
+	Needs to install:
+		Feature:
+			Windows Server Migration Tools
+		Powershell:
+			Install-WindowsFeature Migration
+	Uses from:
+		smigdeploy /package /architecture x86 /os WS03 /path ' path address'
+	Uses to:
+		.\smideploy
