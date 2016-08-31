@@ -1,6 +1,7 @@
 Commenting = #
 Indent = 4 spaces of tab "It is not necessay but looks readable."
 
+========
 Loops:
   For loop
   ========
@@ -8,9 +9,17 @@ Loops:
     for x in range(0,10):
       print x
       
+      
   While loop
   ==========
-    while
+  # It will loop forever. Google for incremental another while loop tricks.  
+    x = 10
+    while x < 20:
+      print x
+      
+      
+========
+
 
 
 
