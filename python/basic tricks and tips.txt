@@ -1,9 +1,10 @@
 Commenting = #
+Indent = 4 spaces of tab "It is not necessay but looks readable."
 
 Loops:
   For loop
   ========
-  # basically range does seq does in linux. 
+  # basically range does seq does in linux. Checkout the comma','.
     for x in range(0,10):
       print x
       
