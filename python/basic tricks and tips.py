@@ -3,8 +3,8 @@ Commenting = #
 Loops:
   For loop
   ========
-  # basically *range* does seq does in linux. 
-    for x in **range**(0,10):
+  # basically range does seq does in linux. 
+    for x in range(0,10):
       print x
       
   While loop
