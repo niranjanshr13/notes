@@ -1,3 +1,6 @@
+# This note will not be update or added any information.
+    For Better Knowledge read DMV guidebook or instal app name 'Driver Start NY' in android.
+
 Accident:
   Accident file report: 10 days
     Aid the injured driver but don't move him.
