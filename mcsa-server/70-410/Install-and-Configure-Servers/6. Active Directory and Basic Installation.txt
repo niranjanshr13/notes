@@ -1,0 +1,29 @@
+Active Directory:
+  What is:
+    A databse on a domain controller. (NTDS.DIT)
+    Based on Ldap
+    Uses Kerberos: Ticket System to login. "no password needed."
+    Consistent sync accross peer domain controls
+    extensible
+    Interopedates w/ other domains/forests
+
+AD Advantages:
+  
+
+
+AD Structure:
+  Domain: Parent Domain.
+  Tree: Extend as a tree from domain. 'Child Domain' 
+  Forest: Collection of tree. ---> can be create a transitive trust. meaning one forest user can be access to another forest resource.
+  Trust: Can create a relation 'bothside trust' to another forest. similar to multi-forest, but it was create separately when it started.
+    Not whole forest will be trust; but only which is given or have.
+  Federation: It is a transitive trust between the forests.
+    It give all the access similar as a single forest, but looks like 2 forest's combined.
+  
+AD Objects:
+  User:
+  Group:
+  Computer:
+  Organizational Unit (OU): Kind of container of user, group, computer. Can divide based on team.
+  Sites, Site Links: 
+AD Installation:
