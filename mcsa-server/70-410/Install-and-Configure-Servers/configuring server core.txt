@@ -1,0 +1,27 @@
+* ipconfig /all
+* netdom = can be used to join domain.
+* Sconfig = to manage all most of task easily, with friendly ncurse enviroment.
+List interfaces.
+  netsh interface ipv4 show interfaces
+Configure static Ip
+  netsh interface ipv4 set address name=ethernet source=static address='' mask='' gateway=''
+Configure dns
+  netsh interface ipv4 add dnsserver name=ethernet address='' index=''
+Show computer name
+  hostname
+Change computer name
+  netdom renamecomputer %computername% /newname='' /userd: 'admin' /passwordd: 'pass' /reboot:0
+Join domain
+  netdom join %computername% /domain:'' /userd:'' /passwordd:'' /reboot:0
+Create user
+  net user 'username' /add * <-- * to prompt password
+Adding account to group.
+  net localgroup Administrators /add 'username'
+Information about account
+  net 'username'
+Firewall enable
+  netsh advfirewall firewall set group " firewall group name" new enable=yes
+Disable all the firewall.
+  netsh advfirewall set allprofiles state off
+Reset firewall
+  netsh advfirewall reset
