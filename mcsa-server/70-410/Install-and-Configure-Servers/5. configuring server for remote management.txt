@@ -1,3 +1,16 @@
 WWRM
+  QC (Quick Config):
+  
+  winrm -r:'remote computer name' 'command "example: ipconfig /all"'   <--- run command in remote computer
 
-Remote Server Administrator Tools (RSAT)
+Remote Server Administrator Tools (RSAT): Additional software.
+  Function
+    Fullset of MMC UI: 
+    Server Pool: 
+RDP
+---
+Manage Non-Domain Joined
+  PS: Set-Item wsman:\localhost\Client|Trustedhosts 'domain name' -Concatenate -Force
+  
+Server-Pool:
+  GUI: Manage -> select the server -> add -> name it.
