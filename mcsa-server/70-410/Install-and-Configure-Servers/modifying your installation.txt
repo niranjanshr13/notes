@@ -1,0 +1,43 @@
+Enable Remote Desktop
+  * Remote management: Enable by default.
+  Full Edition: Go to System Properties and check the box and manage if the net user or select user to give access to that machine.
+  Core Edition: 
+  * scregedit = scregedit has collection of script. 
+    cscript scregedit.wsf /AR /v :- show the state of the remote desktop.
+    cscript scregedit.wsf /AR 0 :- This command will set the value 0, which is enable of remote desktop.
+    
+Switching Installation Modes
+  * Need powershell <- just a reminder that i don't need to remember
+    Tools
+      Deployment Image Servicing and Management (DISM) : Used mostly deployment purpose uses.
+      Remote Server Manager: UI for add or remove.
+      Powershell: Like always.
+  Converting / Installing Core to Full Gui.
+    Powershell Command:
+      Import Module ServerManager <-- It is not required from my experience, just a note.
+      Install WindowsFeature Server-Gui-Mgmt-Infra, Server-Gui-Shell -Restart
+    DISM:
+      Dism /online /Enable-Feature /FeatureName:ServerCore-FullServer /featurename:Server-Gui-Shell /featurename:Server-Gui-Mgmt
+      
+  Converting / Installing Full Gui to Core.
+    Powershell Command:
+      Import Module ServerManager.
+      Uninstall WindowsFeature Server-Gui-Mgmt-Infra, Server-Gui-Shell -Restart
+        Can add '-Remove' to remove binary.
+    DISM:
+      dism /online /disable-feature /featurename:servercore-fullserver
+
+Feature on Demand
+
+
+Minimal Server Interface
+
+
+Add / Remove Feature In Offline Image.
+
+
+
+
+Reference:
+CBT Nugget 70-410
+https://technet.microsoft.com/en-us/library/ee441255(v=ws.10).aspx
