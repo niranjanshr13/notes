@@ -27,15 +27,35 @@ Switching Installation Modes
     DISM:
       dism /online /disable-feature /featurename:servercore-fullserver
 
-Feature on Demand
-
+Feature on Demand 'features'
+ * Remove unused binary or payload to save more space.
+ * works on vhd or vhdx
+ * can do this to remote computer.
+  If later wanted, those payload can be get from:
+   WIN file (source file):
+   Online as update:
+  uninstall-windowsfeature -name "name" -vhd "path of the image of vhd or vhdx" -remove <-- '-remove' is important because it deletes the binary, saves disk.
 
 Minimal Server Interface
-
-
+ * '-whatif' <- this switch will check, if some role doesn't work on it or not. 
+ * Minimal Server means:
+    Strip away:
+     destop
+     start screen
+     explorer
+     ie
+    Still have
+     server manager
+     mmc + snap-ins
+     subset of control panel.
+  Powershell:
+   Uninstal-windowsfeature server-gui-shell <-- removing or convert to minimal server.
+   Install-windowsfeature server-gui-shell  <-- convert to gui / full version.
+  
 Add / Remove Feature In Offline Image.
-
-
+ * PS: get-windowsfeature <-- get all the windows feature with their unique name.
+ install-windowsfeature dns -vhd "path of vhd"
+ uninstall-windowsfeature dns -vhd "path of vhd"
 
 
 Reference:
