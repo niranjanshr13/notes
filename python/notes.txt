@@ -7,7 +7,7 @@ Basic Stuff
 Commenting = #
 Indent = 4 spaces of tab "It is not necessay but looks readable."
 Python is Case Senstive
-
+: for a conditional purpose. --->> check the conditional section.
 
 Variables:
 =========
@@ -115,8 +115,18 @@ Tuples 'It cannot be changed'
   tup1 = ("Cheese") =>> It works
     tup1 => 'Cheese'
   
-    
-  
+Conditional:
+===========
+if 3 > 2:
+  print("Works")
+    -> Works
+--
+if 5 = 5: <--- this doesn't work because one equal sign mean assigning it.
+----
+if 5 == 5:
+  print("Worked.")
+    -> Works
+
 
 Loops:
 ========
