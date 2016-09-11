@@ -1,0 +1,17 @@
+Security Identifies
+  SID: Sid changes, if you delete the user accidently and create the account; be careful and remember.  <-- 'UID of Linux'
+    PS Commands:
+      Set-ADUser
+      Set-ADAccountPassword
+      Enable-ADAccount
+Copying Accounts + Templates
+  
+
+User Rights
+
+
+Computer Accounts
+
+
+Disabled + Inactive
+
