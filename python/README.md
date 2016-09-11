@@ -1,8 +1,6 @@
 Python notes and uses; probably basic stuff.
   Things are noted.
-  - Loops
-    - For Loops
-    - While Loops
+  
   - Variables
     - Normal Assignment Variable
     - Multiple Assignment Variable
@@ -16,7 +14,14 @@ Python notes and uses; probably basic stuff.
       - Max, and Min of Array
       - Append in Array
       - Count Array
-    - Dictionaries
-      - Update Dictionaries
-      - Delete Dictionaries
-    - Tuples 'It cannot added or deleted values inside but can be delete as whole or replace as a whole.'
+      - Dictionaries
+        - Update Dictionaries
+        - Delete Dictionaries
+      - Tuples 'It cannot added or deleted values inside but can be delete as whole or replace as a whole.'
+    - Conditional and Loops
+        - Conditional
+          - If, then, and else
+        - Loops
+          - For Loops
+          - While Loops
+
