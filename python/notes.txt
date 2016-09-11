@@ -87,9 +87,3 @@ Loops:
 Reference:
 ==========
 https://www.youtube.com/watch?v=rkx5_MRAV3A
-
-
-Side Note: Done Noting.
-For Loop
-While Loop
-Commenting
