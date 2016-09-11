@@ -37,6 +37,4 @@ Reference:
   "Learn Powershell 3 in a month of lunches" by Don Jones, and Jeffery D. Hicks
   
   
-  
-  
 Page 61.
