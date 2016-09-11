@@ -25,3 +25,14 @@ Python notes and uses; probably basic stuff.
           - For Loops
           - While Loops
 
+
+
+
+
+
+
+
+Reference:
+==========
+https://www.youtube.com/watch?v=rkx5_MRAV3A
+Learn Python The Complete Python Programming Course (Udemy)
