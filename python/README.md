@@ -34,5 +34,5 @@ Python notes and uses; probably basic stuff.
 
 Reference:
 ==========
-https://www.youtube.com/watch?v=rkx5_MRAV3A
-Learn Python The Complete Python Programming Course (Udemy)
+- https://www.youtube.com/watch?v=rkx5_MRAV3A
+- Learn Python The Complete Python Programming Course (Udemy)
