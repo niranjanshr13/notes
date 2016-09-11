@@ -11,3 +11,12 @@ Python notes and uses; probably basic stuff.
     - Slicing Variable
     - Arrays Variable
       - Substitutes Arrays Variable
+      - Delete Array 'del'
+      - Length of Array
+      - Max, and Min of Array
+      - Append in Array
+      - Count Array
+    - Dictionaries
+      - Update Dictionaries
+      - Delete Dictionaries
+    - Tuples 'It cannot added or deleted values inside but can be delete as whole or replace as a whole.'
