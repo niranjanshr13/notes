@@ -28,7 +28,10 @@ friendly commands.
     Help Get-EventLog -online <--- this will show what the switch need or what it does.
 
   more --> does same as linux does.
-
+----------------------
+pipeline / pipe-ing
+===================
+  
 
 
 
@@ -36,5 +39,5 @@ friendly commands.
 Reference:
   "Learn Powershell 3 in a month of lunches" by Don Jones, and Jeffery D. Hicks
   
-  
-Page 61.
+Continue page:-
+  Page 61.
