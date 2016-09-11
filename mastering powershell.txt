@@ -1,0 +1,29 @@
+powershell feature:
+  autocompletion feature like linux shell.
+  autocompletion in directories.
+  autocompletion in switches (-) parameter.
+  can use wildcard like in linux shell.
+  switches can be written shortly meaning:
+    if there is -computer, -connection, -composition
+      you can write '-compu' instead of computer.
+  variables = '$'
+    example:
+      $host = 192.168.1.1
+        PS: ping $host
+  verb-noun = it is way powershell commands are:
+    example:
+      Get-Help
+        Get=verb
+        Help=noun
+  ItemProperty ---> attributes of file.
+  regedit is like a folder system in powershell.
+    example:
+      PS: set-location -path HKCU:   ----> HKCU is 'HKEY_CURRENT_USER' in regedit.
+        PS: set-location -path software
+friendly commands.
+  help --> similar to man of linux. 'Get-Help' is actual command that is run.
+    Get-Help Get-Service <---- this will show what does 'Get-Service' does, and show all the option that are needed.
+    Get-Help *event* <--- it is basically man -k 'event' in linux.
+    Help Get-EventLog -online <--- this will show what the switch need or what it does.
+
+  more --> does same as linux does.
