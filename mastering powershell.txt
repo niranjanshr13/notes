@@ -20,6 +20,7 @@ powershell feature:
     example:
       PS: set-location -path HKCU:   ----> HKCU is 'HKEY_CURRENT_USER' in regedit.
         PS: set-location -path software
+  *PS: ` ---> back tick is similar to '/' in linux
 friendly commands.
   help --> similar to man of linux. 'Get-Help' is actual command that is run.
     Get-Help Get-Service <---- this will show what does 'Get-Service' does, and show all the option that are needed.
