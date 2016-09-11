@@ -126,8 +126,25 @@ if 5 = 5: <--- this doesn't work because one equal sign mean assigning it.
 if 5 == 5:
   print("Worked.")
     -> Works
-
-
+If, then, and else
+==================
+  age = 21
+  if age > 10
+    print("Worked.")
+  --> works
+----- Below is if, then, and else statement: look at he indent of 1st and 2nd if statement.  -----
+  age = 10
+  name = "mathew"
+  if age > 5:
+    if name == "mathew":
+      print("Worked")
+    else:
+      print("Didn't work")
+---- Look at the and between two critiria ---- 
+  age = 10
+  name = "bruce"
+  if age > 5 and name == "bruce":
+    print("Worked.")
 Loops:
 ========
   For loop
@@ -142,18 +159,3 @@ Loops:
     x = 10
     while x < 20:
       print x
-      
-      
-========
-
-
-
-
-
-
-
-
-
-Reference:
-==========
-https://www.youtube.com/watch?v=rkx5_MRAV3A
