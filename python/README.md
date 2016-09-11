@@ -1,4 +1,4 @@
-# Basic python notes for reminder; what i have learn with exmaple.
-Just a reminder Down.
-  Parent
-    Child
+Python notes and uses; probably basic stuff.
+  Things are noted.
+  - Loops
+  - Variables
