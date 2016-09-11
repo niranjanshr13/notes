@@ -1,5 +1,13 @@
+Legends
+=======
+  => is not a python symbol, it is way to know answer.
+
+Basic Stuff
+===========
 Commenting = #
 Indent = 4 spaces of tab "It is not necessay but looks readable."
+Python is Case Senstive
+
 
 Variables:
 =========
@@ -52,11 +60,64 @@ Variables:
     x[0] = 'apple'
     x[2] = 'car'
   Substitue Arrays Values.
+  =======================
   x = ["apple", "bell", "car"]
     x[2] = "carrot"
     x = ["apple", "bell", "carrot"]
     
+  Delete Array
+  ============
+    x = ["apple", "bell", "car"]
+      del x[2]
+      x => ["apple", "bell"]
+  Length Array
+  ============
+    x = ["apple", "bell", "car"]
+      len(x) => 2
+  Max, and Min of Array
+  =====================
+    x = ["1", "2", "3"]
+      max(x) => 3
+      min(x) => 1
+  Append Array
+  ============
+    x = ["apple", "bell", "car"]
+      x.append("dell") => ["apple", "bell", "car", "dell"]
+  Count Array
+  ===========
+    x = ["apple", "bell", "car"]
+      x.count("apple") => 1
+
+Dictionaries
+============
+  x = {"one",11,"two",12,"three",14}  =>>> looks like json.
+    x[one] => 11
+  Update Dictionaries
+  ===================
+    x["one"] = 12
+      now,
+        x["one"] => 12
+  Delete Dictionaries
+  ===================
+    del x["one"]
+      x => ["two",12,"three",14]
+  Dictionaries Functions 'unordered result'
+  ======================
+    x = {"one",11,"two",12,"three",14}
+      x.keys() =>> (['one','two','three'])
+    x = {"one",11,"two",12,"three",14}
+      x.values() =>> (['11','12','14'])
+Tuples 'It cannot be changed'
+=============================
+  tup1 = ("Maths",23,"Dogs")
+    tup1.append("asd") =>> doesn't work
+    del tup1["Maths"] =>> doesn't work
+  tup1 = ("Cheese") =>> It works
+    tup1 => 'Cheese'
   
+    
+  
+
 Loops:
 ========
   For loop
@@ -64,7 +125,6 @@ Loops:
   # basically range does seq does in linux. Checkout the comma','.
     for x in range(0,10):
       print x
-      
       
   While loop
   ==========
