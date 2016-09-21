@@ -13,18 +13,18 @@ Requirement of competitive advantage:
 
                                                          A Model of Competitive Advantage
                                                          --------------------------------
-                        ------------
-                        | Resources|
-                        ------------
-                              ↓
-                        --------------      -------------------     ------------
-                        |Distinctive | →    |Cost Advantage   |   → |   Value  |
-                        |Competencies| →    |      or         |   → | Creation |
-                        --------------      | Differentiation |     ------------
-                              ↑             |   Advantage     |
-                        --------------      -------------------
-                        |Capabilities|
-                        --------------
+                                    ------------
+                                    | Resources|
+                                    ------------
+                                          ↓
+                                    --------------      -------------------     ------------
+                                    |Distinctive | →    |Cost Advantage   |   → |   Value  |
+                                    |Competencies| →    |      or         |   → | Creation |
+                                    --------------      | Differentiation |     ------------
+                                          ↑             |   Advantage     |
+                                    --------------      -------------------
+                                    |Capabilities|
+                                    --------------
                         
 Resources and Capabilities:
   Resources: Equipment / human resources.
