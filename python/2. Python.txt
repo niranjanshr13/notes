@@ -1,0 +1,77 @@
+# Hints
+  def = def is defining the function.
+  
+Functions
+=========
+  # Just like linux bash functions
+    ==============================
+  def looper():
+    for x in range(0,10):
+      print("Works")
+  --> looper()
+  
+  def x(one,two):
+    return (one + two)
+  --> x(10,12)
+    --> 24 <--- this is the output.
+
+Abs and Bool
+=============
+  # abs is absolute value
+    =====================
+  abs(-10)
+    --> 10
+  # bool is 0's and 1's
+    ===================
+  bool("ab")
+    ---> True
+  bool("0")
+    ---> False <---- because 0 is false and 1 is true and other number is true.
+
+Help and Dir
+============
+  # Dir is helper of the command or functiom that can be used.
+    ===
+  dir(["x"])
+  
+  # Help will help what is does.
+    ====
+  help(x)
+  
+Eval and Exec
+=============
+  Eval
+  ====
+    # it does evaluate.
+      Example:
+        eval("print("hello")")
+        --> hello
+  Exec
+  ====
+    # similar does both; but exec does multi-line.
+  
+Str, Int, Float
+===============
+  String
+  ======
+    string isn't integer.
+      str(14) <--- this is string, not a integer.
+  Int
+  ===
+    # Int is integer.
+    ##  Converting String number into integer.
+        Example:
+          x = int(10)
+            print x
+            ## or you can do complex with scraping and converting string into integer and do if, then else statement.
+  Float
+  =====
+    # float is deals with decimals; in division or multiplication or other operation.
+      float("12.123321")
+Len
+===
+  Len = is a length
+    len("hello")
+    --> 4 <-- counting 'h' as a 0
+    
+==== done this part and now contine from chapter 5.
