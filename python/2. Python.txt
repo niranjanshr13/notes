@@ -74,4 +74,91 @@ Len
     len("hello")
     --> 4 <-- counting 'h' as a 0
     
-==== done this part and now contine from chapter 5.
+====
+Classes Object Orientated Programming
+=====================================
+  Classes:
+  =======
+    Example:
+      class x:
+        def __init__(self,first,second): <--- __init__ <-- initial
+            self.first = first
+            self.second = second
+            
+      x1 = x("bobby",12)
+      --> x1.first
+      ---> bobby <--- get the value from x1.first
+  
+  function in class
+  ==================
+    class x:
+      def __init__(self,first,second):
+        self.first = first
+        self.second = second
+      def y(self):
+        return("yyy " + self.first + " and " + self.second)
+    
+    s = x("apple","ball")
+--> s.y()
+--> yyy apple and ball <--- the output.
+
+  Class Attributes
+  ================
+    class x:
+      def __init__(self,first,second):
+        self.first = first
+        self.second = second
+        
+        
+    x1 = x("apple",12)
+    x2 = x("ball",10)
+    --
+    hasattr(x1,"second") <--- hasattr is command to know if the set has a attributes.
+  ->True  
+    --
+    setattr(x1,'third',"8th")   <-- set the atrributes
+    hasattr(x1,"third")  <--- now it has thrid attirbuted.
+    --
+    getattr(x1,"third")
+  ->"8th"
+    delattr <--- this is basically work as upper attributes; except it delete attributes.
+
+
+  Inheritence <<--- this will get crazy if you try to read it, just run and you might understand.
+  ===========
+  class Parent:
+    counter = 10
+    def __init__(self):
+      print("Muhhaaa")
+    def parentFunc(self):
+      print("parentFunc hahahaha")
+    def setCounter(self,num):
+      Parent.counter = num
+    def showCounter(self):
+      print(str(Parent.counter))
+      
+  
+  class Child(Parent):  <---- insert Parent in bracket will make this Child a child of parent.
+    def __init(self):
+      print("I am sorry papa")
+    def childFunc(self):
+      print("T.. F...")
+  
+  
+  c = Child()
+  c.childFunc()
+  
+  
+  Overriding Methods
+  ==================
+    class Parent:
+      def func(self):
+        print("parent fun")
+        
+    class Child(Parent):
+      def func(self):
+        print("child func")
+        
+    c = Child()
+    c.func()
+  ->child func <--- overriding parend function.
