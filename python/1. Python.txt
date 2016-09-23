@@ -159,3 +159,53 @@ Loops:
     x = 10
     while x < 20:
       print x
+  Pass, Break, and Continue
+  =========================
+  # normal loop
+    x = 0
+    while counter < 100:
+      print(counter)
+      counter = counter + 1
+  # now break the calculation
+        =====  
+    x = 0
+    while counter < 100:
+      if counter == 4:
+        break
+      print(counter)
+      counter = counter + 1
+  # now pass the process; if the break condition isn't correct ==.
+        ====
+    x = 0
+    while counter < 100:
+      if counter == 4:
+        break
+      else:
+        pass
+      print(counter)
+      counter = counter + 1
+  # continue is used; when you don't want to fun.
+    ========
+  ## in this case o will be escaped.
+    for a in "Hello":
+      if  == "o":
+        continue
+      print(i)
+  Try and Except:
+  ==============
+  # Try
+    ===
+  ## it will not give works because x is not defined yet.  
+    try:
+      if x > 3:
+        print("works")
+    except:
+      print("doesn't work")
+      
+      
+## Covered in this post.
+  
+      
+      
+      
+## Continue to next post. "2. Python"
