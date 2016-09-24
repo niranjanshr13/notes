@@ -1,0 +1,25 @@
+File Input and Output
+=====================
+  Reading a File
+  ==============
+    file1 = open("testfile.txt","r") <--- 'r' is for a 'read'
+  --> file1.read() <-- this will show the output of 1st command
+    file1.seek(0,0) <--- this will position cursor to the first. because file1.read(), will not show in next time.
+    file1.read(21) <-- returns 0-20 character.
+  
+  Write a File
+  ============
+    f = open("test.txt","w")
+  ->f.write("Some random text")
+  ->f.close()
+  
+  Appending to File
+  =================
+    a = open("test.txt","a")
+    f.write("randommmer")
+    f.close()
+    ---
+    o = open("test.txt","a+") <<-- a+ is append and read file.
+    o.write("aplsd")
+    o.close()
+    o.read()
