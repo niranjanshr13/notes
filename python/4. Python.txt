@@ -1,0 +1,43 @@
+Modules
+=======
+  # using module is easy yo, just one example:
+  import random
+  print(random.randinit(0,100))
+-> 12 <-- random number between 0 - 100
+
+Scraping string
+===============
+  # 're' module
+    variable = "hello bellop apodooo halaoepp"
+    m = re.search("bello",variable)
+    start = m.start()
+    end = start + 5
+    print(start)
+    print(end)
+    string[start:end]
+
+Scraping / parsing a website <-- the lame version of doing scraping.
+============================
+  import re
+  import urllib.request
+  url = "https://www.google.com/finance?q="
+  stock = input("Stock Name Plz")
+  url = url + stock
+  #print(url)
+  data = urllib.request.urlopen(url).read()
+  data1 = data.decode("utf-8")
+  #print(data1)
+  m = re.search('meta itemprop="price"',data1)
+  #print(m)
+  start = m.start()
+  end = start + 50
+  newString = data1[start:end]
+  print(newString)
+  m = re.search('content="',newstring)
+  start = n.end()
+  newString1 = newString[start:]
+  print(newString1)
+  m = re.search("/", newString1)
+  start = 0
+  end = m.end()-2
+  ........... <------ you get the point. 
