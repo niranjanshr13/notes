@@ -1,0 +1,17 @@
+# Beautiful Soup
+# ==============
+  from bs4 import BeautifulSoup
+  x = "html non-sense"
+  soup = BeautiSoup(x, "html_parser")
+  soup
+  soup.prettify()
+  print(soup.prettify())
+  soup.title
+  soup.title.contents
+  soup.body
+  soup.body.a <-- will get the first result.
+  soup.find_all('a') <--- list all the 'a' tag of html and now put that in array
+  array = soup.find_all('a')
+  array[0]
+  array[1]q
+ 
