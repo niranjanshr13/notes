@@ -2,7 +2,7 @@
 # ==============
   from bs4 import BeautifulSoup
   x = "html non-sense"
-  soup = BeautiSoup(x, "html_parser")
+  soup = BeautiSoup(x, "html.parser")
   soup
   soup.prettify()
   print(soup.prettify())
@@ -14,4 +14,10 @@
   array = soup.find_all('a')
   array[0]
   array[1]q
- 
+-----
+  soup.find_all(id = 'link2') <--- this will search down to specific.
+  soup.find_all("a", id = 'link2') <--- this will search down tooo specfic.
+-----
+  search with class.
+  =================
+  soup.find('div',{'class':"class_name"})
