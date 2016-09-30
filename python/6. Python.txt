@@ -1,0 +1,15 @@
+Matplotlib
+==========
+  import matplotlib.pyplot as pt <<---- creating matplot aliases as pt.
+  pt.plot([1,2,3,4],[3,8,10,25])
+  pt.show()
+----------
+  Labeling Axis
+  =============
+    import matplotlib.pyplot as pt
+    pt.plot([1,2,3,4],[3,8,10,25])
+    pt.title('boring title')
+    pt.xlabel('lame naming x')
+    pt.ylabel('lame naming y')
+    pt.show()
+  
