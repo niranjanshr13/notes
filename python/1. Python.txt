@@ -201,16 +201,3 @@ Loops:
         print("works")
     except:
       print("doesn't work")
-      
-      
-## Covered in this post.
-   ====================
-  - Variable
-  - Arrays
-  - Dictionaries
-  - Tuples
-  - Conditional
-  - Loops
-    
-      
-## Continue to next post. "2. Python"
