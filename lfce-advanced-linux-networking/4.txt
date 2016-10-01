@@ -1,0 +1,20 @@
+  # Internet Protocol - Routing Packet
+  ====================================
+    - How Data Moves Through an Internet.
+      ==================================
+        - IP
+          - Connects networks
+          - Connectionless
+            - IP don't know who to get to another IP.
+            - So, It ask the router; and it's router job to connect the network.
+            - Router forward packets.
+              - Router have routing tables.
+            - While sending packet; IP has a attachs header of source and destination.
+            - But, router determine the path.
+                   ==========================
+           - IP packet structure.
+             ====================
+             - It has header and actual data; in layer 2
+             - It can fragment and ressembled by router and hosts. <---- MTU. 
+             
+                  
