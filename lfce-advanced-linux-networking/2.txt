@@ -1,0 +1,11 @@
+Internet Protocol
+=================
+  IP Address: 'Layer 3'
+  =====================
+    - Identication and location 'Subnet comes in this place'
+    ** Check the old video and note I include in note.
+  Network Masks and IP Subnets
+  ============================
+    - The concept of Subnet is to 'sub', 'net'; meaning partitioning larger network. 
+    - Separates the portion of the network bits from the host bit.
+    - Subnet mask help which part is network bit and host bit.
