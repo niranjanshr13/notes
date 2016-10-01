@@ -28,3 +28,4 @@ Complete Course:
       - https://www.pluralsight.com/courses/windows-server-2012-install-config-pt1
       - https://www.pluralsight.com/courses/windows-server-2012-install-config-pt2
       - https://www.pluralsight.com/courses/windows-server-2012-install-config-pt3
+        - Torrent Hash: 596BD5CD7A99BCB8E9934B7371B2C4646C429F4E
