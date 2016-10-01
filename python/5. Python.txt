@@ -2,7 +2,7 @@
 # ==============
   from bs4 import BeautifulSoup
   x = "html non-sense"
-  soup = BeautiSoup(x, "html.parser")
+  soup = BeautifulSoup(x, "html.parser")
   soup
   soup.prettify()
   print(soup.prettify())
