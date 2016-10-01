@@ -6,6 +6,10 @@ This Repo Contain
 Contine Course:
   - MCSA 70-410
     - Torrent Hash: 63324AA4AB10DC2547356D185E42BC8D8A7C0A41
+  - Powershell
+    - Learn Windows PowerShell in a Month of Lunches 2nd Edition
+      - ISBN-10: 1617291080
+
 
 
 Complete Course:
