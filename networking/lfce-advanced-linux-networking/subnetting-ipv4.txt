@@ -16,7 +16,6 @@ then,
       hosts: 192.168.2.65 - 192.168.2.126
 
 
-
 Reference:
 ---------
 https://www.youtube.com/watch?v=nFYilGQ-p-8
