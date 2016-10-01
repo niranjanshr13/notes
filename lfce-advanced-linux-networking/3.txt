@@ -1,0 +1,42 @@
+  Ethernet 'Layer 2 'Data Link''
+  ==============================
+    - MAC is contained within the Ethernet Frame Header
+    - Max Transmission Unit = 1500 bytes.
+  
+  Address Resolution Protocol (ARP)
+  =================================
+    - Used to map MAC addresses to an IP
+    - It broadcasts on the bus to see who has the MAC for a particular IP.
+      - The owner of that IP replies
+      - Cached that reponse of MAC and IP in ARP cache.
+  
+      ARP request with wireshark
+      ==========================
+        - arp -a <-- linux command.
+          now,
+            - ping -c 'local network device IP' : for example; 192.168.0.5
+            - arp -a <-- see there is a ARP cache.
+              - arp -d '192.168.0.5' <-- -d will delete arp cache.
+        - wireshark
+          - 'watch how the transmission is done upper arp command.'
+          -  ping -c 1 8.8.8.8
+            - watch wireshark.
+              - first it finds the gateway. 'ARP packet'
+              - then it ping the 8.8.8.8 'ICMP packet'
+
+  Domain Naming System (DNS)
+  ==========================
+    store dns server information:
+      - /etc/resolv.conf <-- linux file.
+        - nameserver 8.8.8.8 <--- config data.
+       
+       dig and host
+       ============
+        - dig www.google.com <---- DNS Record.
+        - host www.google.com <--- It will give IP address. 
+       
+        wireshark
+        =========
+          - dig packet
+            - DNS Protocol 'Query A www.google.com'
+            - Answer section of wireshark is populated dig output.
