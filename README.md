@@ -3,15 +3,16 @@ Just some notes.
 
 This Repo Contain
 
-Contine Course:
+Continuing Course:
   - MCSA 70-410
     - Torrent Hash: 63324AA4AB10DC2547356D185E42BC8D8A7C0A41
   - Powershell
     - Learn Windows PowerShell in a Month of Lunches 2nd Edition
       - ISBN-10: 1617291080
       - Torrent Hash: 62E2A2ADC47D3D99912F5E97D786EA1E4AA205F8
-
-
+  - LFCE: Advanced Linux Networking
+    - https://www.pluralsight.com/courses/linux-networking-advanced-lfce
+      - Torrent Hash: 5B8300EF5DDBC03E08E792ACFEDE49EE9707B586
 
 Complete Course:
   - DMV Guide Book 'NYC'
