@@ -59,4 +59,4 @@ Internet Protocol
       - Types:
         - One to One = One Ip to another.
         - Many to One 'PAT' = Transalting hosts on a network to one IP.
-      
+      ****More will be NAT in Next chapter****
