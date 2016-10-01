@@ -9,3 +9,54 @@ Internet Protocol
     - The concept of Subnet is to 'sub', 'net'; meaning partitioning larger network. 
     - Separates the portion of the network bits from the host bit.
     - Subnet mask help which part is network bit and host bit.
+  Anatomy and IP Address
+  ======================
+    # Just watch this video.
+      - https://www.youtube.com/watch?v=nFYilGQ-p-8
+      
+  Subnet Masks
+  ============
+    - Classful - networks are on the octets bit boundary
+      - Class A - 8 Network bits - 24 Host Bit - 255.0.0.0 Mask - 2^7 Network - 2^24 Hosts
+      - Class B - 16 Network bits - 15 Host Bit - 255.255.0.0 Mask - 2^4 Network - 2^16 Hosts
+      - Class C - 24 Network bits - 8 Host Bits - 255.255.255.0 Mask - 2^21 Network - 2^8 Hosts
+    - Variable Length Subnet Masks (VLSM)
+      - Using vary lenght masks based on needs.
+        - For Example:
+          - 1st Host: Subnet /25 , and host 192.168.0.20
+          - 2nd Host: Subnet /25 , and host 192.168.0.200
+            -  They cannot ping each other even they are in same subnet because of subnet segment.
+              - /25 is 1-127 , 128-2**
+                - Both host needed to same subnet and same subnet segment.
+                  =======================xxxxxxxxxxxxx====================
+    - Classless Inter Domain Routing (CIDR)
+      =====================================
+        - Move bits around and adjust number of network and host.
+        
+    - Special Address:
+      ===============
+      Network Address: Basically first address of the network.
+        - For Example: 192.168.0.3 -> 192.168.0.1
+      Broadcast Address: Basically the last address on the network.
+        - For Example: 192.168.0.3 -> 192.168.0.255
+      Loopback:
+        - 127.0.0.1 ---> home baby.
+      ------
+      Private Network : like organization used it.
+        - 10.0.0.0/8
+        - 172.16.0.0/12
+        - 192.168.0.0/16
+    
+    - Public and Private Addressing
+      =============================
+      
+    - Network Address Translation (NAT)
+      =================================
+      - Allows a privately addressed resource to available on a public ip
+        - Requires a router.
+        - IP conservation
+        - Security
+      - Types:
+        - One to One = One Ip to another.
+        - Many to One 'PAT' = Transalting hosts on a network to one IP.
+      
