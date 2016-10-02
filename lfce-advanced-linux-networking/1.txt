@@ -25,20 +25,20 @@
 -----
   How Data Moves Through a Network
   ================================
-    - 1. Application = Web Browser = Process
-    - 2. Presentation = Web Page = Code
-    - 3. Session = HTTP Get = Socket
-    - 4. Transport  = TCP + header = Port
-    - 5. Network  = IP + TCP + header = Router
-    - 6. Data Link = Frame + IP + TCP + header + Frame = Ethernet
-    - 7. Physical = do some magic 'electron' = NIC
-      - 1. Physical = do some magic 'electron' = NIC
-      - 2. Data Link = Frame + IP + TCP + header + Frame = Ethernet
-      - 3. Network  = IP + TCP + header =  Router
-      - 4. Transport = TCP + Header = Port
-      - 5. Session = HTTP Get = Socket
-      - 6. Presentation = Web page = Code
-      - 7. Application = Web Server = Process
+    - 1. Application    = Web Browser                       = Process
+    - 2. Presentation   = Web Page                          = Code
+    - 3. Session        = HTTP Get                          = Socket
+    - 4. Transport      = TCP + header                      = Port
+    - 5. Network        = IP + TCP + header                 = Router
+    - 6. Data Link      = Frame + IP + TCP + header + Frame = Ethernet
+    - 7. Physical       = do some magic 'electron'          = NIC
+      - 1. Physical       = do some magic 'electron'           = NIC
+      - 2. Data Link      = Frame + IP + TCP + header + Frame  = Ethernet
+      - 3. Network        = IP + TCP + header                  = Router
+      - 4. Transport      = TCP + Header                       = Port
+      - 5. Session        = HTTP Get                           = Socket
+      - 6. Presentation   = Web page                           = Code
+      - 7. Application    = Web Server                         = Process
       
   Encapsulation of data with wireshark / tcpdump
   ==============================================
