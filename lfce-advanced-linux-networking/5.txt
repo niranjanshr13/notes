@@ -1,0 +1,28 @@
+  # Routing Packets in Linux
+    ========================
+      - Static routing
+        ==============
+        - ip route add 192.168.1.1/32 via 192.168.2.1 dev enp0s3 <--  currently machine can only ping 192.168.2.1; but 192.168.2.1 can ping 192.168.1.1; making this configuration will route the packet to 192.168.2.1
+        - ip route del 192.168.1.1 <-- delete table.
+        - ip route del 192.168.1.0/24 via 192.168.2.1 dev enp0s3 <--  look at the subnet.
+        - systemctl restart network <-- restart service; and it will delete all the not permanent file.
+      - Store configuration / Permanent
+        ===============================
+        - file = /etc/sysconfig/network-scripts/file-name
+        - configure data: 192.168.1.0/24 via 192.168.2.1 dev enp0s3
+        - ip route <-- check the route.
+      - Accessing internet.
+        ==================
+          - file = /etc/sysconfig/network-scripts/file-name
+          - GATEWAY=192.168.2.1
+          
+      - VLAN
+        ====
+        - Logical LANs
+        - Tagged VLAN 802.1q
+      - VLAN Configuration
+        ==================
+        - file = /etc/sysconfig/network-scripts/file-name.42
+        - configure data = 'VLAN=yes'
+        - restart service
+          - It will create a different segment on interface.
