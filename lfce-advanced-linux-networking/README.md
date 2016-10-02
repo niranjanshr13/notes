@@ -1,5 +1,6 @@
 Note Content:
   - Network Topologies
+  - Network Devices / Interface
   - OSI Model
   - How Data Moves Through a Network
   - Encapsulation of data with wireshark / tcpdump
@@ -7,7 +8,14 @@ Note Content:
   - Subnet Mask
     - VLSM
     - Classless CIDR
+    - Special IP Addressing
   - NAT
+  - ARP
+  - DNS
+  - IP Packet Structure
+  - IP Routing Decision Process
+  - Time to Live 'TTL'
+  - The Default Route
 
 # Reference
  - LFCE: Advanced Linux Networking
