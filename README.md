@@ -18,10 +18,11 @@ Complete Course:
   - DMV Guide Book 'NYC'
   - Python 'https://www.udemy.com/pythonforbeginners/'
   - RedHat RHCSA
-    - Red Hat RHCSA/RHCE 7 Cert Guide: Red Hat Enterprise Linux 7 ~~ ISBN10: 0789754053
-    - https://www.pearsonitcertification.com/store/red-hat-certification-system-administrator-rhcsa-complete
+    - Red Hat RHCSA/RHCE 7 Cert Guide: Red Hat Enterprise Linux 7 
+      - ISBN10: 0789754053
+      - https://www.pearsonitcertification.com/store/red-hat-certification-system-administrator-rhcsa-complete
       - Torrent Hash: 0FE3B4BAF406BCE0355ACC6EA16D2142200EFFC6
-    - Torrent Hash: 296d552a3c42fc2bc98afd1a9b43f6c6ec06ed1c
+     - Torrent Hash: 296d552a3c42fc2bc98afd1a9b43f6c6ec06ed1c
   - LPIC 1
     - Forgot which one.
   - MCSA 70-410
