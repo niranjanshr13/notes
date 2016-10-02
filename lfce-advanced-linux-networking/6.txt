@@ -1,0 +1,57 @@
+  # Investigation TCP Internals
+    ===========================
+      - What is TCP
+        - TCP is Connection based.
+          - Reliable Delievery
+          - Maintain Order
+          - Error Check
+        - OSI Layer 4
+          - Segments
+          - Provides reliability by require ACK
+          - Maintain Order
+          - Error Check With Checksum ; it data is corrupt or misses packet; it will restart the process.
+        - TCP Header Contain
+          ==================
+          - Source Port
+          - Destination Port
+          - Sequence Number
+          - ACK Number
+          - Flags
+          - Window Size
+          - Checksum
+          - Option
+        - Data Transfer in TCP
+          =====================
+          - Full Duplex 'Bi-directional'
+          - Three Way Handshake
+            - SYN packet send to receiver.
+            - SYN Acknowledgement and send SYN_ACK packet back.
+            - Sender will send it acknowledgement of acknowledgement back.
+          - Connection Termination 'Closing Connection'
+            ===========================================
+              - Fin'finish' flag.
+              - Receiver will acknowledgement and send ACK packet and Fin packet.
+              - Sender receive and send acknowledgement of acknowledgement.
+              - TCP is closed / Terminate.
+            - Ports
+              =====
+                - Used to identify who is talking to whom.
+                - Only one process can one a port on an IP
+                  - A connection consist of:
+                    - Sender IP+Port : Receiver IP+Port
+             - Wireshark
+               =========
+                - Monitor wireshark
+                - Download any file.
+                  - Wireshark
+                    - 1. SYN seq 0
+                    - TCP
+                      - Source port: Ephemeral Port 'Client connect to server'
+                      - Destination port is same port as server port.
+                    - ACK 
+                    - And start transmission file.
+                    - fin+ack packet.
+                - Linux Basic Command
+                  ===================
+                    - ss -ltn -4
+                    - netstat -an
