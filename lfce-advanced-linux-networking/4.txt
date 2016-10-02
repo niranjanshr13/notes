@@ -17,4 +17,15 @@
              - It has header and actual data; in layer 2
              - It can fragment and ressembled by router and hosts. <---- MTU. 
              
-                  
+            - ttl 'time to live' : it is kind of hop.
+           - Traceroute
+             ==========
+             -  traceroute -n 8.8.8.8
+             -  ping -c 1 -t 5 8.8.8.8 <- the concept is that it can go through number of hop. Basically, it takes more 7 hop to get in destination. And '-t' is to limit the hop.
+             -  route -n <-- find gatewat, Genmask of the interface.
+             
+           - SideNote
+             ========
+           - A name indicates what we seek.
+           - An Address indicate where it is.
+           - A route indicate how to get there.
