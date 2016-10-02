@@ -53,5 +53,36 @@
                     - fin+ack packet.
                 - Linux Basic Command
                   ===================
-                    - ss -ltn -4
-                    - netstat -an
+                    - ss -ltn -4 'listening opening port'
+                    - netstat -an 'listening opening port'
+                    - ss -t 'list active port'
+                    - tc qdisc add dev xxxx root netem delay 3000ms loss 5% <--- delaying the any packet send or recieve; every 3 second.
+          - Flow Control
+            ============
+              - Sending one ACK for every segment is slow.
+              - Sliding Windows - ability to have more than one segment in transport a point in time.
+                - Maintained by the receiver
+                - Fully realize the bandwith with link
+          - Congestion Control
+            ==================
+              - Reduce congestion window size.
+                - The sender slows down.
+          - Error Detection and Retransmission
+            ================================== 
+              - Unacknowledged transmission
+              - Result in retransmission of the segment
+              - Reduction in congestion windows size.
+        - UDP
+          ===
+            - Send it and forget it. ----> one way communication, no ack.
+            - Very fast.
+            - High performance networking
+            - Application handles reliable transmission
+            - DNS
+            - VoIP 'Practical Use'
+            - dig google.com --->> dns query; uses UDP.
+  Note:
+    Wireshark
+      - Graph
+        - Window Scaling Graph.
+        - Wireshak IO Graph
