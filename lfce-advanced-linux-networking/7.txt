@@ -1,0 +1,32 @@
+  # Troubleshooting Network Issues
+    ==============================
+      Troubleshooting Layer 1 : Physical = 'state down'
+        If you don't have connectivity. Mean's cannot ping the device or download file.
+          fixing route: 
+          - ip addr <-- next gen ifconfig.
+          - ethtool <-- fixing this problem.
+            - ethtool 'devicename'
+              - if 'Link detected: no'
+            - check the ethernet wire.   
+      Troubleshooting Layer 2 : Data Link
+        - ip route <--- check the routing.
+        - If you have broadcast and state UP.
+          - check subnet mask.         
+      Troubleshooting Layer 3 : Network
+        - great tool
+          - ss -lnt4 <<--- 4 is ipv4 which is listening or not, the port.
+          - wireshark <<--- check the network, what is happening; if there is client or server problem.
+        - opening port
+          - firewall-cmd --list-all <<--- list all the port opening <<- this is server.
+          - firewall-cmd --permanent --zone=public --add-service=ssh <<-- this will open the port.
+          - firewall-cmd --list-all <<--- double check to find the opening port.
+      Troubleshooting Layer 4 : Transport
+        netstat
+        ss
+      
+    Important Note:
+     -  Layer 1 'Physical' : eth-tool
+     -  Layer 2 'Data Link' : arp
+     -  Layer 3 'Network' : ip (add/route) , route , ping
+     -  Layer 4 'Transport' : netstat , ss
+     -  Mother of all : Wireshark.
