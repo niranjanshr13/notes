@@ -3,18 +3,15 @@ Just some notes.
 
 This Repo Contain
 
-Continuing Course:
+#Continuing Course:
   - MCSA 70-410
     - Torrent Hash: 63324AA4AB10DC2547356D185E42BC8D8A7C0A41
   - Powershell
     - Learn Windows PowerShell in a Month of Lunches 2nd Edition
       - ISBN-10: 1617291080
       - Torrent Hash: 62E2A2ADC47D3D99912F5E97D786EA1E4AA205F8
-  - LFCE: Advanced Linux Networking
-    - https://www.pluralsight.com/courses/linux-networking-advanced-lfce
-      - Torrent Hash: 5B8300EF5DDBC03E08E792ACFEDE49EE9707B586
 
-Complete Course:
+#Complete Course:
   - DMV Guide Book 'NYC'
   - Python 'https://www.udemy.com/pythonforbeginners/'
   - RedHat RHCSA
@@ -32,3 +29,6 @@ Complete Course:
       - https://www.pluralsight.com/courses/windows-server-2012-install-config-pt2
       - https://www.pluralsight.com/courses/windows-server-2012-install-config-pt3
         - Torrent Hash: 596BD5CD7A99BCB8E9934B7371B2C4646C429F4E
+  - LFCE: Advanced Linux Networking
+    - https://www.pluralsight.com/courses/linux-networking-advanced-lfce
+      - Torrent Hash: 5B8300EF5DDBC03E08E792ACFEDE49EE9707B586
