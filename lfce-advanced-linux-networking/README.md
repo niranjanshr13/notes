@@ -1,4 +1,4 @@
-Note Content:
+#Note Content:
   - Network Topologies
   - Network Devices / Interface
   - OSI Model
@@ -16,7 +16,25 @@ Note Content:
   - IP Routing Decision Process
   - Time to Live 'TTL'
   - The Default Route
-
+  - Static routing
+  - Storing configuration
+  - VLAN
+    - VLAN Configuration
+  - TCP
+    - TCP Header
+    - Transfer in TCP
+    - Connection Termination
+    - Port
+    - Flow Control
+    - Congestion Control
+    - Error Detection and Retransmission
+  - UDP
+  - Troubleshooting:
+    - Layer 1 'Physical'
+    - Layer 2 'Data Link'
+    - Layer 3 'Network'
+    - Layer 4 'Transport'
+        
 # Reference
  - LFCE: Advanced Linux Networking
   - https://www.pluralsight.com/courses/linux-networking-advanced-lfce
