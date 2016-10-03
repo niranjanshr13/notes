@@ -1,8 +1,6 @@
 # notes
 Just some notes.
 
-This Repo Contain
-
 #Continuing Course:
   - MCSA 70-410
     - Torrent Hash: 63324AA4AB10DC2547356D185E42BC8D8A7C0A41
