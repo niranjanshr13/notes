@@ -1,4 +1,20 @@
-docker run -d centos /bin/bash -c 'while loop' <----- '-d' is daemon. and it will download centos.
-docker ps                                       <--- it will show process of docker, which running. If the process is complete. It will basically don't show anything.
-docker logs 'id'                               <-- it will show a snapshot of output.
-docker stop 'id'                               <--- it will pause the docker container.
+# Managing Container and Images
+  =============================
+    - docker images                                <--- list the images
+    - docker search 'image- name'                  <--- search in docker hub
+    - docker pull 'image name'                     <--- it will only download the image
+    - docker rmi 'image name'                      <--- delete image
+    - docker ps                                    <--- show running container, if the process is complete. It will basically don't show in ps.
+    - docker stop 'image name'                      <--- stop the container
+    - docker rm 'container name'                    <--- remove container
+    - docker rm -f 'container name'                 <--- forcely remove container
+    - docker logs 'id'                              <--- it will show a snapshot of output.
+    - docker run -d 'id'                            <--- it will run in daemon 
+    - docker run -d 'id' /bin/bash -c 'while loop'  <--- '-d' is daemon. and it will download centos.    
+    - docker stop 'id'                              <---  it will pause the docker container.
+    
+    
+# Notes
+  =====
+    - dont need to write full name or id number; can be unique.
+    
