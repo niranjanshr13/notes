@@ -12,9 +12,18 @@
     - docker run -d 'id'                            <--- it will run in daemon 
     - docker run -d 'id' /bin/bash -c 'while loop'  <--- '-d' is daemon. and it will download centos.    
     - docker stop 'id'                              <---  it will pause the docker container.
+    - docker run -it 'id'                           <--- get interactive shell.
     
-    
-# Notes
-  =====
+# Networking
+  ==========
+   Notes:
+   ======
+    - docker will create a new network when run the container. <--- this doesn't mean the network interface of the host os.
+    - interface mostly start with 'v' interface; which is bridge to network inside the container.
+   Command:
+   ========
+   - docker inspect 'name or id of container'                 <--- show all the information of the docker container.
+   - docker inspect 'name or id of container' | grep IP       <--- it will grep IP. dah!!
+# Tricks
+  ======
     - dont need to write full name or id number; can be unique.
-    
