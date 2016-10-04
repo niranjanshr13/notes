@@ -1,0 +1,4 @@
+docker run -d centos /bin/bash -c 'echo Hello' <----- '-d' is daemon. and it will download centos.
+docker ps <--- it will show process of docker, which running. If the process is complete. It will basically don't show anything.
+docker logs 'id' <-- it will show a snapshot of output.
+docker stop 'id' <--- it will pause the docker container.
