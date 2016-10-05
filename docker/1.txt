@@ -106,10 +106,11 @@
         =======
           - docker create --name my_data -v /usr/share/ngnix/html ubuntu <--- this is taking '/usr/share/ngnix/html' from ubuntu container and creating new volume.
           - docker run -d --volumes-from my_data nginx <--- now that 'my_data' volume is used by nginx container.
-          
-          
+
 # Tricks
   ======
     - dont need to write full name or id number; can be unique.
     - --name 'xxxx' ---> name flag; can set own name for the container.
     - recommended not to use 'attach' flag; because it doesn't work sometime.
+    - '--priveleged' for the SeLinux linux system.
+    - docker socket '/var/run/docker.sock'
