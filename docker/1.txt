@@ -13,7 +13,7 @@
     - docker run -d 'id' /bin/bash -c 'while loop'  <--- '-d' is daemon. and it will download centos.    
     - docker stop 'id'                              <---  it will pause the docker container.
     - docker run -it 'id'                           <--- get interactive shell.
-    
+    - docker exec -it 'name/id' bash                <--- it is way to attach and get interactive shell on the container.
 # Networking
   ==========
    Notes:
@@ -68,8 +68,13 @@
             - docker run -d -v /tmp/hellow/:/mnt/ 'container name or id'
 # Modifying Containers and Images
   ===============================
-    
-        
+    - docker exec -it 'name/id' bash                <--- it is way to attach and get interactive shell on the container.
+    - docker commit 'old_image' 'new_image_name'    <--- commiting the new image.'creating new image from old container.
+# Creating images from scratch
+  ============================
+    - 
 # Tricks
   ======
     - dont need to write full name or id number; can be unique.
+    - --name 'xxxx' ---> name flag; can set own name for the container.
+    - recommended not to use 'attach' flag; because it doesn't work sometime.
