@@ -22,8 +22,37 @@
     - interface mostly start with 'v' interface; which is bridge to network inside the container.
    Command:
    ========
-   - docker inspect 'name or id of container'                 <--- show all the information of the docker container.
-   - docker inspect 'name or id of container' | grep IP       <--- it will grep IP. dah!!
+      - Docker Inspect
+        ==============
+         - docker inspect 'name or id of container'                 <--- show all the information of the docker container.
+         - docker inspect 'name or id of container' | grep IP       <--- it will grep IP. dah!!
+      - Bridge Network
+        ==============
+         - docker run -d -p 8080 'name or id of container'          <--- '-p' publish port to 8080.
+           - check the process of docker.
+         - docker ps <--- you will see that 8080 is redirect to another port; now you can type IP:FORWARDED_PORT.
+           - for example:
+             - docker run -d -p 8080 'adejonge/helloworld'
+             - docker ps
+             - go to another computer basically and type: IP:FORWARDED_PORT
+        - docker run -d -p preferred_port:docker_port 'name or id of container' <--- specific port by the user.
+          - for example:
+             - docker run -d -p 9000:8080 'adejonge/helloworld'
+             - go to another computer basically and type: IP:9000 <--- because 8080 is mapped on 9000.
+        - docker run -d -p preferred_port:docker_port -p preferred_port:docker_port 'name or id of container' <--- specific port by the user.
+         - for example:
+            - docker run -d -p 9000:8080 9091:8080 adejonge/helloworld
+            - go to another computer basically and type: IP:9000 <--- because 8080 is mapped on 9000.
+            - go to another computer basically and type: IP:9001 <--- because docker allow to map one port into as many as port as user want.
+    - Host Network
+      ============
+        - docker run -d --net=host adejonge/helloworld <--- this will share port 8080 application to host.
+          - for example:
+            - ifconfig
+              - IP = 192.168.0.20
+            - docker run -d --net=host adejonge/helloworld <--- this is suppose to have its own IP, but it don't because it share same network.
+              - now you go 192.168.0.20:8080 
+        - 
 # Tricks
   ======
     - dont need to write full name or id number; can be unique.
