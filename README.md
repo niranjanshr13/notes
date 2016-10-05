@@ -8,9 +8,7 @@ Just some notes.
     - Learn Windows PowerShell in a Month of Lunches 2nd Edition
       - ISBN-10: 1617291080
       - Torrent Hash: 62E2A2ADC47D3D99912F5E97D786EA1E4AA205F8
-  - Docker
-    - CBT Nugget's Docker
-      - Torrent Hash: 
+
 
 #Complete Course:
   - DMV Guide Book 'NYC'
@@ -33,3 +31,7 @@ Just some notes.
   - LFCE: Advanced Linux Networking
     - https://www.pluralsight.com/courses/linux-networking-advanced-lfce
       - Torrent Hash: 5B8300EF5DDBC03E08E792ACFEDE49EE9707B586
+  - Docker
+    - CBT Nugget's Docker
+      - https://www.cbtnuggets.com/it-training/docker
+      - Torrent Hash: 
