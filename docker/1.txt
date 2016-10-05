@@ -52,7 +52,24 @@
               - IP = 192.168.0.20
             - docker run -d --net=host adejonge/helloworld <--- this is suppose to have its own IP, but it don't because it share same network.
               - now you go 192.168.0.20:8080 
-        - 
+
+# Shared and Persistent
+  =====================
+    # Notes
+      =====
+        - external is the key
+        - map the host folder to the container.
+        - persistent meant file is save on host, not in docker.
+    # Command
+      =======
+        - docker run -d -v 'host_directory_path':'docker_directory_path' 'container'
+          - for example:
+            - echo 'bye world' /tmp/hello/t.txt
+            - docker run -d -v /tmp/hellow/:/mnt/ 'container name or id'
+# Modifying Containers and Images
+  ===============================
+    
+        
 # Tricks
   ======
     - dont need to write full name or id number; can be unique.
