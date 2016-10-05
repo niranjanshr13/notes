@@ -99,7 +99,13 @@
             - docker build -t 'name' . <--- '.' is for the directory.
           -----------
           ===========
-          
+# Containers Working Together.
+  ============================
+    - share one container file / folder to another container by create a volume.
+      # Command
+        =======
+          - docker create --name my_data -v /usr/share/ngnix/html ubuntu <--- this is taking '/usr/share/ngnix/html' from ubuntu container and creating new volume.
+          - docker run -d --volumes-from my_data nginx <--- now that 'my_data' volume is used by nginx container.
           
           
 # Tricks
