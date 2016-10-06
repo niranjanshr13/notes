@@ -14,7 +14,9 @@ Just some notes.
 
 #Complete Course:
   - DMV Guide Book 'NYC'
-  - Python 'https://www.udemy.com/pythonforbeginners/'
+  - Python
+    - https://www.udemy.com/pythonforbeginners/
+    
   - RedHat RHCSA
     - Red Hat RHCSA/RHCE 7 Cert Guide: Red Hat Enterprise Linux 7 
       - ISBN10: 0789754053
