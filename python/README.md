@@ -1,3 +1,4 @@
+#Udemy python for beginners
 * All the course from udemy isn't written for notes; because after this pretty much, it is statistics and gui; and below chaper are pretty much boring to learn.
   - Chapter 10 'MatPlotLib - Charts, Plots and 3D Figures'
   - Chapter 11 'Data Analysis with Pandas'
@@ -55,6 +56,7 @@ Python notes and uses; probably basic stuff.
       - requests 
       - Matplotlib
 
+# Automate the Boring Stuff with Python Programming
 
 Reference:
 ==========
