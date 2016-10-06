@@ -8,7 +8,9 @@ Just some notes.
     - Learn Windows PowerShell in a Month of Lunches 2nd Edition
       - ISBN-10: 1617291080
       - Torrent Hash: 62E2A2ADC47D3D99912F5E97D786EA1E4AA205F8
-
+  - Python
+    - Automate the Boring Stuff with Python Programming
+      - Torrent Hash: 472ee340bae6f6bf2b5d63bf5a0f692f0c4d22c4
 
 #Complete Course:
   - DMV Guide Book 'NYC'
