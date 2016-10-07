@@ -1,1 +1,18 @@
-#
+# argparse is module for creating a argumental feature.
+import argparse
+
+# Description
+parser = argparse.ArgumentParser(description="this is description")
+# below is the parameter for -i which is required.
+parser.add_argument('-i', type=str, help="put the -i value which will be add 10", required=True)
+# below is the parameter for -o which is not required; can be put into the parameter.
+parser.add_argument('-o', type=str, help="hello", required=False)
+
+#gathering the args
+cmdargs = parser.parse_args()
+
+# putting the -i value to variable x and add 10 to it.
+x = int(cmdargs.i) + 10
+#y = int(cmdargs.o) + 1
+print(x)
+#print(y)
