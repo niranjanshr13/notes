@@ -28,7 +28,7 @@ Just some notes.
   - LPIC 1
     - Forgot which one.
   - MCSA 70-410
-    - Trainsignal 'Pluralsight' : For basic knowledge of 70-410. This course is overview; might not pass with this much contain.
+    - Trainsignal 'Pluralsight' : For basic knowledge of 70-410. This course is overview; doesn't have much contain.
       - https://www.pluralsight.com/courses/windows-server-2012-install-config-pt1
       - https://www.pluralsight.com/courses/windows-server-2012-install-config-pt2
       - https://www.pluralsight.com/courses/windows-server-2012-install-config-pt3
