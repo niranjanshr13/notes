@@ -18,6 +18,10 @@ Just some notes.
     - The Complete Python Programming Course by 'Avinash Jain'
       - https://www.udemy.com/pythonforbeginners/
       - Torrent Hash: 0cd808fe04be2fde387579df6b3d8abab516d2f7
+    - Learn Python From Basic to Advance
+      - Torrent Hash: 8ea36d1b8f789145ce8f52f26c27ab3a6c27f534
+    - Ethical Hacking,Python and Linux Combo course
+      - Torrent Hash: ccdaf2062281caff1d1f277b007c35b1555318f8
   - RedHat RHCSA
     - Red Hat RHCSA/RHCE 7 Cert Guide: Red Hat Enterprise Linux 7 
       - ISBN10: 0789754053
