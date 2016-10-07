@@ -13,6 +13,7 @@ Just some notes.
       - Torrent Hash: 472ee340bae6f6bf2b5d63bf5a0f692f0c4d22c4
     - Mastering Python - Networking and Security
       - Torrent Hash: 9938c2269cbfd54ccf6a0007689a8e81e8865167
+      
 #Complete Course:
   - DMV Guide Book 'NYC'
   - Python
