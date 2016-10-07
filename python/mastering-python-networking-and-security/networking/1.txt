@@ -3,9 +3,9 @@
     - import socket
     - print(socket.gethostbyaddr('8.8.8.8'))
     - print(socket.gethostbyname('google.com'))
---
-# Network Client
-  ==============
+---
+# Network Client 'Sending packet'
+  ===============================
     * listen on port 5555 from netcat. <--- 'netcat -l 5555'
     - import socket
     - host = 'localhost'
@@ -19,4 +19,26 @@
     -   print("sucks", e)
     - finally:
     -   mysock.close()
-    
+---
+# Network Server 'Listening packet'
+  =================================
+    * after listen port 9999; running. run netcat localhost 9999; and send anytext
+    - import socket
+    - size = 512
+    - host = ''
+    - port = 9999
+    - sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    - sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+    - sock.bind((host, port))
+    - sock.listen(5)
+    - c, addr = sock.accept()
+    - data = c.recv(size)
+    - print(c)
+---
+# http request
+  ============
+    * import http.client <--- i am not going to use this,
+    - import requests
+    - url = 'some website link'
+    - r = requests.get('url')
+    - print(r.text)
