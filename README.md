@@ -15,8 +15,9 @@ Just some notes.
 #Complete Course:
   - DMV Guide Book 'NYC'
   - Python
-    - https://www.udemy.com/pythonforbeginners/
-    
+    - The Complete Python Programming Course by 'Avinash Jain'
+      - https://www.udemy.com/pythonforbeginners/
+      - Torrent Hash: 0cd808fe04be2fde387579df6b3d8abab516d2f7
   - RedHat RHCSA
     - Red Hat RHCSA/RHCE 7 Cert Guide: Red Hat Enterprise Linux 7 
       - ISBN10: 0789754053
