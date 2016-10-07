@@ -65,6 +65,9 @@ Reference:
 ==========
 - https://www.youtube.com/watch?v=rkx5_MRAV3A  <-- recommend to see this video first.
 - Learn Python The Complete Python Programming Course (Udemy) 'https://www.udemy.com/pythonforbeginners/' 
-
+- Automate the Boring Stuff with Python Programming
+  - Torrent Hash: 472ee340bae6f6bf2b5d63bf5a0f692f0c4d22c4
+- Mastering Python - Networking and Security
+  - Torrent Hash: 9938c2269cbfd54ccf6a0007689a8e81e8865167
 
 Use docker as learning environment; python images.
