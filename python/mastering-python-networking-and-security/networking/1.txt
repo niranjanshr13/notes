@@ -1,0 +1,22 @@
+# Name Server lookup.
+  ==================
+    - import socket
+    - print(socket.gethostbyaddr('8.8.8.8'))
+    - print(socket.gethostbyname('google.com'))
+--
+# Network Client
+  ==============
+    * listen on port 5555 from netcat. <--- 'netcat -l 5555'
+    - import socket
+    - host = 'localhost'
+    - mysock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    - addr = (host,5555)
+    - mysock.connect(addr)
+    - try:
+    -   msg=b"hi, this is test\n"
+    -   mysock.sendall(msg)
+    - except socket.errno as e:
+    -   print("sucks", e)
+    - finally:
+    -   mysock.close()
+    
