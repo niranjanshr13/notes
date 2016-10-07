@@ -57,8 +57,14 @@ Python notes and uses; probably basic stuff.
       - Matplotlib
 
 # Automate the Boring Stuff with Python Programming
-
+  - BeautifulSoup scraping html
+    - Amazon Book Price Scraper.
+    - Marketwatch stock scraper.
+  
 Reference:
 ==========
 - https://www.youtube.com/watch?v=rkx5_MRAV3A  <-- recommend to see this video first.
 - Learn Python The Complete Python Programming Course (Udemy) 'https://www.udemy.com/pythonforbeginners/' 
+
+
+Use docker as learning environment; python images.
