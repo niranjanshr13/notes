@@ -8,5 +8,7 @@ driver.find_element_by_xpath('//*[@id="email"]').send_keys(user_name)
 driver.find_element_by_xpath('//*[@id="pass"]').send_keys(pass_word)
 driver.find_element_by_xpath('//*[@id="u_0_n"]').click()
 driver.save_screenshot('image.png')
+# Scrolling down.
+driver.execute_script("window.scrollTo(0, 10000);")
 driver.quit()
 exit()
