@@ -21,7 +21,7 @@ Torrent Hash:472ee340bae6f6bf2b5d63bf5a0f692f0c4d22c4
    ---------
   # Controlling the Browser with the Selenium Module
     ================================================
-    * install fireofox version 8;
+    * install firefox version 8;
       # install compatible firefox
         ==========================
           - apt-get remove firefox -y
@@ -54,6 +54,9 @@ Torrent Hash:472ee340bae6f6bf2b5d63bf5a0f692f0c4d22c4
             - ln -sf /usr/local/share/phantom*/bin/phantomjs /usr/local/bin
             # for checking if it works or not.
             - phantomjs --version
+         * run from docker 'new way'
+           =========================
+            - docker run -it niranjanshr13/selenium_phantomjs
           -------------- 
         - from selenium import webdriver
         - driver = webdriver.PhantomJS()
