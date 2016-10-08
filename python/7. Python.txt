@@ -21,4 +21,44 @@ Torrent Hash:472ee340bae6f6bf2b5d63bf5a0f692f0c4d22c4
    ---------
   # Controlling the Browser with the Selenium Module
     ================================================
-    LATER.
+    * install fireofox version 8;
+      # install compatible firefox
+        ==========================
+          - apt-get remove firefox -y
+          - wget 'https://ftp.mozilla.org/pub/firefox/releases/8.0/linux-x86_64/en-US/firefox-8.0.tar.bz2'
+          - tar -xjf firefox-8.0.tar.bz2
+          - mv firefox /opt/firefox8
+          - ln -s /opt/firefox8/firefox /usr/bin/firefox
+        ---
+      # install selenium
+        ================
+          - pip install selenium
+    # Control Firefox From Selenium
+      =============================
+        - from selenium import webdriver
+        - driver = webdriver.Firefox()
+        - driver.get("https://duckduckgo.com/")
+        - driver.find_element_by_id('search_form_input_homepage').send_keys("google.com")
+        - driver.find_element_by_id("search_button_homepage").click()
+        - print(driver.current_url)
+    # Control PhantomJS from Selenium
+      ===============================
+        * run from docker.
+          ===============
+            - docker run -it python
+            - pip install selenium
+            # download latest
+            - wget 'https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-linux-x86_64.tar.bz2'
+            - tar -xjv phantomjs-2.1.1-linux-x86_64.tar.bz2
+            - mv phantomjs-2.1.1-linux-x86_64 /usr/local/share
+            - ln -sf /usr/local/share/phantom*/bin/phantomjs /usr/local/bin
+            # for checking if it works or not.
+            - phantomjs --version
+          -------------- 
+        - from selenium import webdriver
+        - driver = webdriver.PhantomJS()
+        - driver.get("https://duckduckgo.com/")
+        - driver.find_element_by_id('search_form_input_homepage').send_keys("google.com")
+        - driver.find_element_by_id("search_button_homepage").click()
+        - print(driver.current_url)
+        - driver.quit()
