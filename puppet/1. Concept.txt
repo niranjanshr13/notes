@@ -1,0 +1,47 @@
+# Concept
+  =======
+    - Configuration Management System
+    - Central repo. to keep infrastructure definitions.
+      - If you have 5 server; which is apache server.
+      - Now if you want have same config, making every server same config into is time consuming.
+      - We could be config in puppet master and push to all the 'puppet client' server.
+    - SSL Communication between master and client.
+      - Firstly, slave send cert to master;
+      - When master approves it, then the communication start.
+      - Only one time certification approval needed.
+
+# Installation
+  ============
+    - Puppet Master
+      =============
+        - wget https://apt.puppetlabs.com/puppetlabs-release-trusty.deb
+        - dpkg -i debfile.deb
+        - apt install puppetmaster
+        * ip = 192.168.0.90
+    - Puppet Slave
+      ============
+        - wget https://apt.puppetlabs.com/puppetlabs-release-trusty.deb
+        - dpkg -i debfile.deb
+        - apt install puppet
+        - 192.168.0.90 puppetmaster  <--- in /etc/hosts
+
+
+# The First Manifest
+  ==================
+    - Example 1: 'just a notify manifest'
+      ===================================
+# hello_world.pp      <--- manifest / file-name
+notify{'Hello,world': <--- notify <--- is a type                <--|  A resource
+  }                   <--- 'Hello,world' Name of resource       <--|  A resource
+
+      - Example 2: 'ensure that package is installed'
+      ============================================
+# puppet_package.pp
+package {'nginx':
+  ensure  => installed,
+    }
+---
+# filename.pp
+package {'nginx':
+  ensure => '1.1.19-1ubuntu0.1',      <--- this will install specific package version.
+    }
