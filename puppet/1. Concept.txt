@@ -17,14 +17,23 @@
         - wget https://apt.puppetlabs.com/puppetlabs-release-trusty.deb
         - dpkg -i debfile.deb
         - apt install puppetmaster
-        * ip = 192.168.0.90
+        # configuring master for communication.
+          =====================================
+            - change hostname into master.local
+            - change /etc/hosts
+              - 192.168.0.90 = master.local
     - Puppet Slave
       ============
         - wget https://apt.puppetlabs.com/puppetlabs-release-trusty.deb
         - dpkg -i debfile.deb
         - apt install puppet
         - 192.168.0.90 puppetmaster  <--- in /etc/hosts
-
+      # configuring master for communication.
+        =====================================
+          - change hostname into slave.local
+          - change /etc/hosts
+            - 192.168.0.91 = slave.local
+            - 192.168.0.90 = master.local
 
 # The First Manifest
   ==================
