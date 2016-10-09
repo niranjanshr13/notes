@@ -1,0 +1,23 @@
+# If the you have 2 node with totally different purpose.
+  1.  webserver
+  2.  database server.
+  
+# Install package and ensuring it is running.
+  # Puppet Master
+    =============
+    - install.
+      - puppet module install puppetlabs-nginx
+    - /etc/puppet/manifests/site.pp
+        - node 'slave.local'{
+                package {'nginx':
+                  ensure => installed,
+                  }
+                service {'nginx':
+                  provider => 'systemd',
+                  ensure => running,
+                  enable => true,
+                  }
+          }
+      # Puppet Slave
+        ============
+        - puppet agent --server master.local --verbose --no-daemonize --waitforcert 10
