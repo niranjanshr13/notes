@@ -13,7 +13,7 @@
         - puppet cert sign "name.local"   <--- sign the certification.
      - Puppet-Slave
        ============
-        - puppet agent --server master.local --verbose --no-daemonize --waitforcert
+        - puppet agent --server master.local --verbose --no-daemonize --waitforcert 10
         - '--noop' <--- doesn't run the command; check if its going to work.
                
        
