@@ -1,0 +1,26 @@
+# Creating node for master
+  ========================
+    - PuppetMaster
+      ============
+        - cd /etc/puppet/manifest/
+        - nano site.pp
+          - file {'/tmp/demo2.txt':
+            content => 'he',
+            owner => 'root',
+            mode => 777,
+            }
+        - puppet cert list  <--- list unsigned the cert.
+        - puppet cert sign "name.local"   <--- sign the certification.
+     - Puppet-Slave
+       ============
+        - puppet agent --server master.local --verbose --no-daemonize --waitforcert
+        - '--noop' <--- doesn't run the command; check if its going to work.
+               
+       
+# Fix Problem
+  ===========
+    - could not pid ... <--- kill the process of puppet 'for slave'
+    - if the communication doesn't works
+      - remove all ssl <--- remove -rf /etc/puppet/ssl of slave
+      - make sure the hostname and host has .local  
+    - check the manifest of the puppet-master; site.pp
