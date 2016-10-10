@@ -22,7 +22,7 @@ Torrent Hash:472ee340bae6f6bf2b5d63bf5a0f692f0c4d22c4
   # Controlling the Browser with the Selenium Module
     ================================================
     * install firefox version 8;
-      # install compatible firefox
+      # install compatible firefox 'docker run -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix niranjanshr13/selenium_firefox'
         ==========================
           - apt-get remove firefox -y
           - wget 'https://ftp.mozilla.org/pub/firefox/releases/8.0/linux-x86_64/en-US/firefox-8.0.tar.bz2'
@@ -33,7 +33,7 @@ Torrent Hash:472ee340bae6f6bf2b5d63bf5a0f692f0c4d22c4
       # install selenium
         ================
           - pip install selenium
-    # Control Firefox From Selenium
+    # Control Firefox From Selenium 'docker run -it niranjanshr13/selenium_phantomjs'
       =============================
         - from selenium import webdriver
         - driver = webdriver.Firefox()
