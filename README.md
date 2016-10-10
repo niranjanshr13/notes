@@ -4,10 +4,6 @@ Just some notes.
 #Continuing Course:
   - MCSA 70-410
     - Torrent Hash: 63324AA4AB10DC2547356D185E42BC8D8A7C0A41
-  - Powershell
-    - Learn Windows PowerShell in a Month of Lunches 2nd Edition
-      - ISBN-10: 1617291080
-      - Torrent Hash: 62E2A2ADC47D3D99912F5E97D786EA1E4AA205F8
   - Python
     - Automate the Boring Stuff with Python Programming
       - Torrent Hash: 472ee340bae6f6bf2b5d63bf5a0f692f0c4d22c4
@@ -17,6 +13,12 @@ Just some notes.
     - Getting Started with Puppet
       - Torrent Hash: 5a4cb815128a200353721b760960e93e5c99107f
       
+#Postpond Course:
+  - Powershell
+    - Learn Windows PowerShell in a Month of Lunches 2nd Edition
+      - ISBN-10: 1617291080
+      - Torrent Hash: 62E2A2ADC47D3D99912F5E97D786EA1E4AA205F8
+
 #Complete Course:
   - DMV Guide Book 'NYC'
   - Python
