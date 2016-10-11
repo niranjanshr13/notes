@@ -9,6 +9,7 @@ Just some notes.
       - Torrent Hash: 9938c2269cbfd54ccf6a0007689a8e81e8865167
   - Puppet
     - Getting Started with Puppet
+      - https://www.udemy.com/getting-started-with-puppet/
       - Torrent Hash: 5a4cb815128a200353721b760960e93e5c99107f
   - Ansible
     - Pluralsight - Hands-on Ansible
