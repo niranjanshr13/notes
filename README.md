@@ -3,6 +3,7 @@ Just some notes.
 
 #Continuing Course:
   - MCSA 70-410
+    - https://www.cbtnuggets.com/it-training/microsoft-windows-server-2012-training-70-410-r2
     - Torrent Hash: 63324AA4AB10DC2547356D185E42BC8D8A7C0A41
   - Python
     - Mastering Python - Networking and Security
