@@ -1,0 +1,79 @@
+  Ansible
+  -------
+    Function 'Every functions are connected.'
+    -----------------------------------------
+      - Change Management 'It's about what; not how.'
+        - Define a "System State"
+          - Enforce the system state   <--- much like puppet.
+      - Provisioning:
+        - Transition from one state to different state.
+          - For Example:
+            - From FTP Server to Web Server; which no problem.
+      - Automation:
+        - Define tasks to be exected automatically.
+          - Set it and Forget it.
+      - Orchestration:
+        - Different than automation.
+          - It corrinate the automation.
+    - Ansible power
+      -------------
+        - No agents
+        - No database
+        - Portable
+        - No residual software
+        - No complex upgrades
+        
+    - Format Structure
+      ----------------
+        - YAML  <-- same as home-assistant
+           - Careful of whitespace.
+           
+    - Uses SSH to communicate
+    - Root Usage
+    - Encrypted vault
+    - No PKI needed
+    - Restful calls
+    - Shell Commands
+    - Scripts
+    
+    - Components
+      ----------
+        - Inventory: 
+          - Text file that contain group, user, server 'host file'
+        - Module
+          - Module that have different functions.
+            - For Example:
+              - YUM
+              - APT
+        - Playbook
+          - Playbook is used to work done.
+          - It contain 'play' execute in pre-define way.
+        - Ansible Config
+            - Ansible config
+            - how many execute in time.
+        - Variable
+          - Host Variable
+          - Facts
+            - Facts of the device / enviroment of that system.
+              - cpu, ram
+          - Dynamic Variable
+            - Temporary; done and discarded.
+    - Minimal Requirement for control server
+      --------------------------------------
+        - Must have python
+        - Linux / Mac
+        - Not Windows
+    - Minimal Requirements for Remote Server
+      --------------------------------------
+        - Python 2.5+
+        - Python 3 is not supported
+        - SSH
+        - Support Windows
+    - Execution Types
+      ---------------
+        - Remote
+          - It is basically ssh way.
+        - Local
+          - When it doesn't reponse to the python calls
+          - Restful call
+          - Web api
