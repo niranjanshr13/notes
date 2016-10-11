@@ -5,8 +5,6 @@ Just some notes.
   - MCSA 70-410
     - Torrent Hash: 63324AA4AB10DC2547356D185E42BC8D8A7C0A41
   - Python
-    - Automate the Boring Stuff with Python Programming
-      - Torrent Hash: 472ee340bae6f6bf2b5d63bf5a0f692f0c4d22c4
     - Mastering Python - Networking and Security
       - Torrent Hash: 9938c2269cbfd54ccf6a0007689a8e81e8865167
   - Puppet
@@ -25,6 +23,8 @@ Just some notes.
     - The Complete Python Programming Course by 'Avinash Jain'
       - https://www.udemy.com/pythonforbeginners/
       - Torrent Hash: 0cd808fe04be2fde387579df6b3d8abab516d2f7
+    - Automate the Boring Stuff with Python Programming
+      - Torrent Hash: 472ee340bae6f6bf2b5d63bf5a0f692f0c4d22c4
     - Learn Python From Basic to Advance
       - Torrent Hash: 8ea36d1b8f789145ce8f52f26c27ab3a6c27f534
     - Ethical Hacking,Python and Linux Combo course
