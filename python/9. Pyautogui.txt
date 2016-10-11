@@ -1,0 +1,17 @@
+# use the docker; you have created.
+# https://hub.docker.com/r/niranjanshr13/python3_pyautogui/
+docker run -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v /root/.Xauthority:/root/.Xauthority niranjanshr13/python3_pyautogui
+
+# Pyautogui Screenshot
+  ====================
+    - import pyautogui
+    - pyautogui.screenshot('/tmp/pic.png')
+    
+# Pyautogui automation
+  ====================
+    * have a pic of object of the environment in computer; for example: startmenu
+    - import pyautogui
+    - pyautogui.locateOnScreen('/tmp/startmenu.png')
+    - pyautogui.locateCenterOnScreen('/tmp/startmenu.png')
+    - pyautogui.moveTo((xx,yy), duration=1)
+    - pyautogui.click(xx,yy)
