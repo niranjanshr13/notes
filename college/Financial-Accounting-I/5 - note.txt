@@ -1,0 +1,28 @@
+                                                Always put shoe on Business
+            ADE                                * If there is normal; there is also Increase in top of it.
+ ------------------------                       * Focus in decrease
+|Debit         | Credit  |
+ ------------------------
+Increase      | Decrease                       * For Example:
+Normal        |                                 * Cash = CR ---> Cash is Asset; goes to ADE.. <-- Credit
+                                                * Unearned Fees = DR
+            LCR                                 * Named Capital = DR
+----------------------------                    * Salary Expense = CR
+Debit(DR)     | Credit (CR) |                 Note:
+----------------------------                   * Paid Cash = CR Cash
+              | Increase    |                   * Received Cash = DR Cash
+              | Normal      |                   * you can only purchase
+                                                * An asset
+                                                  * DR Asset
+                                              * Asset is always DR
+                                                -------------------
+                                                  * For Example:
+                                                      -------------------------------------
+                                                    - Selle'R'            vs  'P'urchaser |
+                                                      ------------------------------------
+                                                      Received Cash       |   Pay Cash
+                                                      Account Receivable  |   Accounts Payable
+                                                      
+                                              * Purchase on account = Purchase on credit = 'CR' Accounts Paypal
+                                              * Asset is always debit
+                                              * Billed the customer = 'DR' Accounts Receivable
