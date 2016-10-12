@@ -7,11 +7,7 @@
                                                               (-) E = Expenses
                                                               (-) D = Drawing
                                                               (+) C = Capital
-                                                              
-                                                              
-                                                              
-                                                              
-                                                              
+                                                                                                      
   Page 34
   -------
   Assets            +    Liabilities      +               OE
