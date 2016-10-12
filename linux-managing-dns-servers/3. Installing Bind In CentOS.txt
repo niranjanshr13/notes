@@ -1,0 +1,44 @@
+  # This is CentOS way of doing BIND9; check chap. 2 for ubuntu way.
+    # Installing BIND9 in CentOS  <--- centos called BIND9 a bind.
+                                  <--- systemctl enable named
+                                  <--- systemctl start named
+      - yum install -y bind bind-utils
+                                  <--- open port.
+                                    - firewall-cmd --permanent --add-port=53/tcp
+                                    - firewall-cmd --permanent --add-port=53/tcp
+                                    - firewall-cmd reload
+                                  <--- enable and start service
+                                    - systemctl enable named
+                                    - systemctl start named
+                                  <--- check if its enable
+                                    - dig google.com @127.0.0.1
+                                    
+    # Configuration of BIND of CentOS
+      -------------------------------
+        - /etc/named*
+        - /var/named
+        - /var/named  <-- directory
+        - /etc/sysconfig/named
+        - /usr/lib/systemd/system/named.service
+    
+    # Note again
+      ----------
+        - DNS Server default run as DNS caching-only server; 
+          - but 
+            - can also configure it as DNS forward server
+            - can also configure it as Master server.
+            - can also configure it as slave server.   <--- kind of loadbalancing server
+            - can also configure it as listen-on server.
+            - can also configure it as allow-query server.
+    # Checking the configuring file.
+      -----------------------------
+      Opening port to external other network.
+      --------------------------------------- 
+        - /etc/named.conf
+          * every line is ended with semi-colon
+          - listen-on port 53 ---> add the external ip of the host.
+            For Example
+              - listen-on port 53 { 127.0.0.1; 192.168.0.10; };
+              - allow-query ---> add 'ipaddress/subnet' ---> 192.168.33/24
+          - rndc reload
+      
