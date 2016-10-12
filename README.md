@@ -20,6 +20,7 @@ Just some notes.
     - Pluralsight Linux Managing DNS Servers LPIC 2
       - https://www.pluralsight.com/courses/linux-managing-dns-servers-lpic-2
       - Torrent Hash: 2C194A8A48A98339F88176EF7AD28A6CC86DF3E9
+      
 #Postpond Course:
   - Powershell
     - Learn Windows PowerShell in a Month of Lunches 2nd Edition
