@@ -1,0 +1,9 @@
+# This course will based on Ubuntu.
+
+  # Installing DNS Server
+    - apt install bind9 -y
+    - service bind9 start
+  # Checking if the DNS server is working or not.
+    - dig google.com @127.0.0.1
+      - look at the answer and query section.
+        - query section is from 127.0.0.1
