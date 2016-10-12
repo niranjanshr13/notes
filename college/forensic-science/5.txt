@@ -1,11 +1,18 @@
   # Autopsy
     - Autopsy is simply the examination of a body after death. 
   - Goals of the autopsy
-	  -------------------
+    -------------------
       -	cause of death
 	    -	mannar of death
+	-	Evidence from the autopsy
+		-------------------------
+		-	Victim's clothing
+		-	Fingernail scraping or clipping
+		-	Combing from head and public are
+		-	Bullets recovered from the body
+		
 	- Three types of Examination
-    ------------------------
+	  --------------------------
       - External Examination:
         - It includes a broad overview of the condition of the body and cloth.
         - It consist of classfying the injuries
