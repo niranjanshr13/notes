@@ -1,0 +1,58 @@
+  # checking inside of .deb
+    - dpkg -L bind9
+  
+  # Confiuration of bind9
+    - /etc/bind/named.conf        <--- main configuration
+    - /etc/bind/rndc.key          <--- readable the user of group of bind; gain access named daemon * This is important file because it contains the secret key
+    - /etc/bind/named.conf/options
+      - contains:
+        - /var/cache/bind         <--- caching directory
+        - dnssec-validation       <--- security
+        - auth-nxdomain no;       <--- authority of domain
+        - listen-on-v6            <--- this means that we are listening to ipv6 too.
+    - named.config.default-zones  <--- configuration of zones
+    * In another distribution; configuration file can be found in another directory; might be in /etc/
+      - dpkg -L bind9
+      - rpm -L bind9
+    
+    
+  # checking version
+    named -v | -V                  <--- to check the version of the named
+    
+  # zone files
+    * ls /etc/bind/db*
+    - /etc/bind/db.local          <--- information about local host.
+    - /etc/bind/db.127            <--- reverse lookup zones; pointer 'PTR' record relate to of hostname
+    - $DENERATE 10-254 $ PTR dhcp-$.example.com   
+    
+  # Chrooting DNS <--- just like name suggest.
+    -----------------------------------------
+      - Security aspect
+        ---------------
+          - /etc/default/bind9      <--- can change the parameter to -t 'path folder of chroot directory'
+
+  # Controlling the DNS Server
+    --------------------------
+      - rndc status
+      - rndc-confgen                <--- configuration of rndc and customize the setting
+      - Port 953                    <--- controlling the rndc
+      
+  # Additional Tools
+    ----------------
+    - Server tool
+      -----------
+      - named-checkconfig           <--- this is software that can verify if the configure is setup correctly; no output is good.
+      - named-checkzone localhost 'path'    <--- default path is '/etc/bind/db.local'
+                                                
+    - Client Tools
+      ------------
+        - dnsutils package gives up
+          - dig
+          - nslookup
+      
+      
+  * Tips
+    ----
+     - Different Linux have different service name. of named / bind9
+     -  127.0.1.1 = DNSMasq = dig -t -A google.com              |   DNSMasq and BIND \ 
+     -  127.0.0.1 = BIND    = dig -t -A google.com @127.0.0.1   |   is two different thing
