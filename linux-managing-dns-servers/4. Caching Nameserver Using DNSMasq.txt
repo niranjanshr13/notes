@@ -1,0 +1,68 @@
+  # Installing DNSMasq on CentOS
+    - yum install -y dnsmasq
+  # adding group for dnsmasq
+    - groupadd -r dnsmasq && useradd -rg dnsmasq dnsmasq
+  # dnsmasq configuration,
+    - /etc/dnsmasq.conf
+  # starting and enabling dnsmasq
+    - systemctl enable dnsmasq
+    - systemctl start dnsmasq
+  # extra security on dns
+    ---------------------
+      - domain-needed
+      - bogus-priv
+      - no-hosts
+      - dns-foward-max=100
+      - cache-size=500  <--- increasing cache size
+      - resolv-file=/etc/resolv.dnsmasq
+      - no-poll
+      
+      
+      
+  # enabling firewall
+    -----------------
+      - firewall-cmd --permanent --add-port=53/tcp
+      - firewall-cmd --permanent --add-port=53/udp
+      - firewall-cmd --reload   
+    
+  # configuring dnsmasq
+    -------------------
+      - yum install -y dnsmasq
+      - /etc/dnsmasq.conf                     <--- (remove|change file name)
+        - listen-address=127.0.0.1,192.'ip    <--- address to listen on * can add ip with comma
+        - port=53                             <--- dns port
+        - bind-interfaces                     <--- binding interfaces
+        - pid-file=/var/run/dnsmasq.pid       <--- pid of dns data
+        - no-hosts                            <--- not reading from hosts file.
+        - resolv-file=/etc/resolv.dnsmasq     <--- check the below.
+        - domain-needed                       <--- needed '.com'
+        - bogus-priv                          <--- ip such as 192.168. <--- private ip will be skipped
+        - dns-forward-max=100                 <--- setting max of concurrent request queries 
+        - cache-size=500                      <--- caching dns record
+        - no-poll                             <--- Do not poll resolv.conf for changes
+        
+          * if something went wrong.
+            ------------------------
+              - stop the dnsmasq services.
+              - change configuration.
+              - start the dnsmasq services.
+              - enable the dnsmasq services.
+              - check the status of the services.
+              
+   # changing resolv.conf for the dnsmasq
+     ------------------------------------
+      - /etc/resolv.dnsmasq               <--- it doesn't matter where or what file name is.
+        - nameserver 8.8.8.8
+        - nameserver 8.8.4.4
+      - /etc/dnsmasq.conf
+        - resolv-file=/etc/resolv.dnsmasq <--- append to the line
+      - restart the service and check if the resolv is changed and it is running or not.
+    
+    # always
+      ------
+        - to check; dig google.com @127.0.0.1
+    
+* dnsmasq can be used as:
+  - dns server
+  - dhcp server
+  - proxy server
