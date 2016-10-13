@@ -3,16 +3,16 @@
  ------------------------                       * Focus in decrease
 |Debit         | Credit  |
  ------------------------
-Increase      | Decrease                       * For Example:
-Normal        |                                 * Cash = CR ---> Cash is Asset; goes to ADE.. <-- Credit
-                                                * Unearned Fees = DR
+Increase      | Decrease |                     * For Example:
+Normal        |          |                      * Cash = CR ---> Cash is Asset; goes to ADE.. <-- Credit
+-------------------------                       * Unearned Fees = DR
             LCR                                 * Named Capital = DR
 ----------------------------                    * Salary Expense = CR
 Debit(DR)     | Credit (CR) |                 Note:
 ----------------------------                   * Paid Cash = CR Cash
               | Increase    |                   * Received Cash = DR Cash
               | Normal      |                   * you can only purchase
-                                                * An asset
+-----------------------------                   * An asset
                                                   * DR Asset
                                               * Asset is always DR
                                                 -------------------
