@@ -1,0 +1,13 @@
+  
+  /etc/resolv.conf      <--- this conf can be override by the OS, which can be changed.
+  /etc/nsswitch.conf    <--- order of how Name Resolution is carried out.
+  
+  
+  
+  /etc/resolv.conf      <--- this is usually override by OS.
+    - can change the overwritten by:
+      - CentOS = NM_MANAGED=no
+      - Ubuntu = /etc/network/interfaces
+      
+  /etc/nsswitch.conf
+  
