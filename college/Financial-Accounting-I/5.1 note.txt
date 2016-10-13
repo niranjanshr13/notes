@@ -1,7 +1,7 @@
                                                 Always put shoe on Business
             ADE                                * If there is normal; there is also Increase in top of it.
  ------------------------                       * Focus in decrease
-|Debit         | Credit  |
+Debit         | Credit  |
  ------------------------
 Increase      | Decrease |                     * For Example:
 Normal        |          |                      * Cash = CR ---> Cash is Asset; goes to ADE.. <-- Credit
