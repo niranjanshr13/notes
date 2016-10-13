@@ -1,0 +1,17 @@
+  # Taxes
+    -----
+      - Received (*1) $500 for tax service (*2) to be performed next month.       1* <--- Account title -- Cash
+                                                                                  2* <--- To be or not to be
+                                                                                     <--- Received / Increase asset = Debit
+                                                                                     <--- Gave / Decrease Cash = Credit
+    - Assets = Liabilities + Owner Equity
+                                           (+) Revenue            ------| Net Income \
+                                           (-) Expense            ------| or <Net Loss>
+                                           (-) Drawings / Withdrawl
+                                           (+) Capital
+                                           
+     By Beginning of the year Assets = Libilities + Owner's Equity
+                              550,000 = 215000 + 335,000   | Revenue | Net Income 
+      Change                                   + 189,000   | Expense | <Net Loss>
+      By the end of the year 844,000 = 320,000 + 524,000   | Drawings / Withdrawls (-)
+                                                             Capital (Additional 
