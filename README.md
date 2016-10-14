@@ -5,9 +5,6 @@ Just some notes.
   - MCSA 70-410
     - https://www.cbtnuggets.com/it-training/microsoft-windows-server-2012-training-70-410-r2
     - Torrent Hash: 63324AA4AB10DC2547356D185E42BC8D8A7C0A41
-  - Python
-    - Mastering Python - Networking and Security
-      - Torrent Hash: 9938c2269cbfd54ccf6a0007689a8e81e8865167
   - Puppet
     - Getting Started with Puppet
       - https://www.udemy.com/getting-started-with-puppet/
@@ -23,10 +20,13 @@ Just some notes.
       
 #Postpond Course:
   - Powershell
-    - Learn Windows PowerShell in a Month of Lunches 2nd Edition
+    - Learn Windows PowerShell in a Month of Lunches 2nd Edition  <--- will be continue, when I get my 70-410 certification
       - ISBN-10: 1617291080
       - Torrent Hash: 62E2A2ADC47D3D99912F5E97D786EA1E4AA205F8
-
+  - Python
+    - Mastering Python - Networking and Security <--- recommended not to learn from this course, totally vague and full of pre-made script.
+      - Torrent Hash: 9938c2269cbfd54ccf6a0007689a8e81e8865167
+      
 #Complete Course:
   - DMV Guide Book 'NYC'
   - Python
