@@ -1,0 +1,62 @@
+# to be cont.
+
+1. Understanding Red Hat Identity Management
+---------------------------------------------
+  - Preparing Identify Management Installation
+    ------------------------------------------
+      - Set up host name resolving
+      - Disabled nscd 
+      - Disable LDAP
+      - Disable Kerberos Service
+      - Open port in firewall
+ Installing IPA-Server 'Redhat doesn't requires it.'
+      - yum -y install ipa-server bind nds-ldap
+        - ipa-server-install
+      - systemctl restart sshd to obtain Kerberos Credentials
+      - verify kerberos auth: 
+        - default admin = kintadmin
+      - verify IPA access
+        - ipa user-find admin
+  
+  Kerberos Ticket?:
+    - Before managing IdM server, it needs ticket for the admin user:
+      - kinit admin   <--- generate ticket
+      - klist         <--- show ticket validity
+  
+  Creating User Accounts
+    - kinit admin
+    - ipa user-add mathew
+    - ipa passwd mathew
+    - ipa user-find mathew
+
+
+2. Using authconfig to set up External Authentication
+-----------------------------------------------------
+
+
+
+
+
+
+3. Configuring a System to Authenticate Using Kerberos
+------------------------------------------------------
+
+
+
+
+
+
+
+4. Understanding authconfig Configuration Files
+-----------------------------------------------
+
+
+
+
+* Note
+  ----
+   - service such as ntp, chrony, ldap, kerberos, dns should not be used in indentity management server; cause it cause conflict.
+   
+   -  ipa help <command>
+    - ipa help user-add
+   - have browser interface '<localhost>.com' 
