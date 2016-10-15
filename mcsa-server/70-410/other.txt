@@ -1,0 +1,5 @@
+found on the web.
+link:
+  - http://www.techexams.net/forums/windows-8-exams/78880-70-410-installing-configuring-windows-server-2012-study-notes.html
+  - https://borntolearn.mslearn.net/certification/p/wiki?es=systemCenter&ec=410
+  - https://borntolearn.mslearn.net/certification/server?Redirected=true
