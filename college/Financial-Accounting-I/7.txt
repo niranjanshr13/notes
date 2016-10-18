@@ -17,7 +17,7 @@ Paid in advance  = DR " Prepaid _______ "
 
     ADE                                               LCR
 ------------------                              -------------------
-    DR	|  CR                                      DR	  | CR      |
+    DR	|  CR                                   |  DR	  | CR      |
 -------------------                             -------------------
 Income	| Decrease                              Decrease| Income  |
 Normal	|	                                              | Normal  |
@@ -34,7 +34,8 @@ Que?
     - Account titles
       1. Car            ---> Increase     ---> Assets         * Look at the chart for the verification
       2. Cash           ---> Decrease     ---> Assets
-      3. Note Payable   ---> If you aren't sure; there is trick.
+      3. Note Payable   ---> Decrease     ---> Liabilities 
+                            If you aren't sure; there is trick.
                               * Both Debit and Credit should be equal.
                                     In this case Car is more and Cash in low; so we put the note payable in credit.
       
@@ -42,8 +43,8 @@ Journal Entry
 -------------
                                   Journal Entry
                                   -------------
-  10/18               Debit Car                  55,000
-                            Credit Cash                 15,000
-                            Credit Notes Payable        40,000              ** It is liabilities; Increase; which is credit
+  10/18               Debit Car                        55,000
+                            Credit Cash                     15,000
+                            Credit Notes Payable            40,000              ** It is liabilities; Increase; which is credit
                             
                             
