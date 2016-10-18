@@ -1,0 +1,49 @@
+Jounal Entry
+------------
+
+To be perfomed            |
+To be rendered			      |= CR "Unearned _____"
+To be done in the future  |
+
+
+Paid in advance  = DR " Prepaid _______ "
+1. The debt are always listed first m the journal entry
+2. There are no dollars signs in a journal entry
+3. I require that you place the DR and the CR before the account title.
+
+
+                            This is not a journal entry.
+                            -----------------------------
+
+    ADE                                               LCR
+------------------                              -------------------
+    DR	|  CR                                      DR	  | CR      |
+-------------------                             -------------------
+Income	| Decrease                              Decrease| Income  |
+Normal	|	                                              | Normal  |
+
+--------------
+Journal Entry: 
+  - Example
+  - 10/18
+Que?
+  - 10/18 Purchased a car for 55,000 paid is 15,000 own and took out a note for the remainng balance.
+
+* Identifying it
+  --------------
+    - Account titles
+      1. Car            ---> Increase     ---> Assets         * Look at the chart for the verification
+      2. Cash           ---> Decrease     ---> Assets
+      3. Note Payable   ---> If you aren't sure; there is trick.
+                              * Both Debit and Credit should be equal.
+                                    In this case Car is more and Cash in low; so we put the note payable in credit.
+      
+Journal Entry
+-------------
+                                  Journal Entry
+                                  -------------
+  10/18               Debit Car                  55,000
+                            Credit Cash                 15,000
+                            Credit Notes Payable        40,000              ** It is liabilities; Increase; which is credit
+                            
+                            
