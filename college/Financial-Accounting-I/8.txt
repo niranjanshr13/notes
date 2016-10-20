@@ -1,0 +1,45 @@
+- Chapter 3
+  ---------
+    - Types of Journal Entry
+      ----------------------
+        1. Regular Journal Entries = Chapter 2
+        2. Adjusting Journal Entries = Chapter 3
+        3. Closing Journal Entries = Chapter 4
+        
+        
+    - These rules apply to adjusting jounal entries only
+      --------------------------------------------------
+        - Adjusting entries must impact 2 financial statement. 'must have both in the adjusting journal entries'
+          - Balance Sheet
+          - Income Statement
+        - Adjusting entries = only have 2 accounting
+        - Adjusting entries = NEVER use the account title cash
+          - No DR. Cash
+          - No CR. Cash
+        - The income statement rules: Revenue account will ALWAYS be the CREDIT; Expense will ALWAYS be the Debit.
+        - There is only 1 debit and 1 credit
+        - Know the matches in adjusting entries
+        - Know the rules for adjusting entries
+        
+        - Accomulated Depreciation
+          - Found among the assests
+          - ****** assets account
+          - Normal Balance is a credit
+          
+      Revenue Recognition
+      -------------------
+        -  Revenue is recognized when the 
+        
+        - Expenses are recognized when incurred
+        - Understand: Accrual basis vs cash basis
+        
+     Balance Sheet          | Income Statement      |    RG = Regular Entry
+   Prepaid rent expenses    |                       |    AD = Adjusting Entry
+   Supplies                 |                       |         Look at the business traaction and indicate whether A is an adjusting entries
+   Accumulated depreciation |                       |         1. Paid $100 for supplies
+   Interest Receivable      |                       |           - It has cash and the no income statement; so it is not adjusting entries; it is regular entry
+   Prepaid Advestising      |                       |         2. Purchased a building for $700,000 with mortgage
+   Unearned ticket reveunue |                       |           - It is regular entries; because of the cash.
+   Accounts receivable      |                       |         3. Wages incurred for the moth were $78,000 but not yet paid. 'It is adjusting entry'
+   Salaries payable         |                       |           - DR. Wages expense 78,000
+                                                                - CR. Wages Payable = 78,000
