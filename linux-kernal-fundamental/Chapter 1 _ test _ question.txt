@@ -1,0 +1,32 @@
+1. What kernel version is your Linux system running?
+https://asciinema.org/a/55ykdnduih98309awj306v9s9
+
+2. What is the size of the kernel file that corresponds to the kernel your system is running?
+https://asciinema.org/a/2pc8moij7gs0vouh7acihyoxi
+
+3. How much RAM is available to your running kernel? Note: It may or may not be the amount of physical RAM on your system.
+https://asciinema.org/a/7upvxk98chs7wssqh66oilwil
+
+4. The command strace will display the system calls that a process makes as it runs. Using the man command, determine what option for strace will show a summary, with a count, of the number of times a process called each system call. Using that option, what system call is called the most by the command date?
+https://asciinema.org/a/cynk9yh75k6lo29on9tdapvdr
+
+5. Can you determine, using strace, what system call is used to change the directory? 
+
+
+6. Run a sleep 100 with & (to put it in the background). What files does its process have open?
+https://asciinema.org/a/a7oa5e06k0lz5cnr8tgtggr3c
+
+7. Does your system have a PCI Ethernet device? 
+https://asciinema.org/a/6d2mh0her5z5xh8vip1sqnmyi
+
+8. Is the kernel variable ip_forward (under /proc/sys/…) set to 1 or 0 on your system?
+https://asciinema.org/a/1hr0k3hwuplaa404yql7mj2zf
+
+9. According to /sys/block, do you have a block device (disk) sda? If so, do you have device files for partitions of sda? How many? Using strace, does the command fdisk -l (run it as root), open any files under /sys/dev/block?
+https://asciinema.org/a/1wmsqaix256eihxh8e17xx33l
+
+10. Using dmesg and grep, do you see the kernel reporting the kernel command line? If not, can you determine if the boot messages from the kernel were lost? Does your system have a log file that recorded the boot messages? You can grep for BOOT_IMAGE under /var/log to look.
+https://asciinema.org/a/5wmo6sj54v7gpoh9l2gjvv63g
+
+11. What other device files are character devices and share the same major number with /dev/null?
+https://asciinema.org/a/euk8r46oltcbc14xrq1jhq123
