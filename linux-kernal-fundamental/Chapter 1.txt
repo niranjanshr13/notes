@@ -61,7 +61,58 @@ understanding system calls
    -----------------                                   |
    If there is error; library it return negative value |
    If no-error; library will return positive or 0      |
-========================================================
+  ======================================================
    
-   
-   
+   Kernel function    <---- baby much fun.
+    - printk()
+                      - log daemon got all the log of the kernel if is configure dah! 'syslog'
+    - dmesg   <--- show ram buffer message 'best hommie'
+      how to follow the kernel or just following log.
+        - tail -f /var/log/messages
+            - and run some kernel code
+
+  Virtual fs 'not a ramdisk'
+    - proc      <--- toggle variable
+    - sysfs
+
+  PID   <--- it is in /proc ; containing a lot of info... give it to meeeeeeeeee....
+  
+  
+  /sys <-- sysfs
+    - kernel object
+    - what connected to what
+    - PCI device info. baby
+    
+    
+  device file
+    - character and block drivers use device file.
+    - it has major, minor number and type (c or b)
+    
+    
+  drivers and device files
+    open(), read(), write(), and ioctl()    <--- C language <-- old stuff; but golden as f*
+      what is happening
+      -----------------
+        - echo hi > /dev/null 
+          1. it open
+          2. then write.
+          
+          
+    PID <--- this shit backkkk!!!
+    
+    run some command.
+      - go to /proc
+      - htop and find the process
+      - cd to that pid
+      - tada!! a lot of info!!  <--- profit
+        - check the soft-link   <--- don't know that; go home.
+         -  just bunch of text that calls the kernel
+         
+         
+   check out the /dev/null  <----
+    ls -l /dev/null     <--- look at the 'c'haracter and {1, 3} <-- 1 is major and 3 is minor. <--- remember meee..
+      - the important is; if the file is character and has 1, 3 as its major and minor; that shit null.
+        - /dev/zero   <---- {1, 5}
+        
+        
+    GO TO SLEEEEEEEPP. DO IT 2MORROWWWW..
