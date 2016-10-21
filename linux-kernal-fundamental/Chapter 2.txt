@@ -1,0 +1,31 @@
+Bootloader 'GRUB'
+  - Grubs comes after post, and the bios
+  - grubs need to installed in special place in disk
+  - grub run the kernel
+  - it can be interrupted and can pass argument
+  
+GRUB other feature.
+  - it support fs.
+  - it has file name completion     <--- vmlinuz-<auto-completion>
+  - grub can ignore the unrecognized.
+
+man -k grub
+
+grub2 'configuration file'
+  - /etc/grub.d
+  - /etc/default/grub
+  grub2-mkconfig
+
+initramfs ---> in /boot
+gzipped CPIO archieve in initramfs image.
+
+Tutorial will be below.
+  Steps:
+    1. cp to another folder; /tmp/<random-folder-name>
+    2. rename it with xxx.gz
+    3. unzip with cpio  with this parameter --> '--no-absolute-filenames'     <--- be careful ; remember --no-absolute-filenames
+    https://asciinema.org/a/ccwahxyamt6pq8w0s95q6z2g5
+    
+** rdinit=/bin/sh   <--- it uses sh shell in initramfs
+   init=/bin/bash   <--- it uses bash shell for the shell on the disk; it run after the rdinit.
+    
