@@ -1,0 +1,67 @@
+Kernel
+------
+  - mostly it is named is vmlinuz-<Kernel Version>
+  - bootloader runs the kernel
+  - kernel has parameter; that is passed by grub
+  
+- Kernel has an API
+  - System calls
+  - Virtual file system 
+    - proc
+    sys
+    debugfs
+  - Device files
+
+- Kernel is a gatekeeper
+  - root process
+  - selinux
+  - access to hardware and other resources
+  
+- Kernel is modular
+  - kernel is small.
+  - sufficient to boot to user space
+  
+kernel pwd  = /boot
+  specially vmlinuz
+  
+kernel version = uname -r
+** check the version number from uname and /boot to compare name which is kernel file
+
+getting hardware info
+  - lshw
+  - lspci
+  - lsusb
+  - lsblk
+  - lscpu
+  - lsdev
+  
+command to configure and control hardware
+  - hdparm
+  - use 'echo' to control proc, dev, sys files
+  - inb
+  - outb
+  - setpci
+  
+  
+understanding system calls
+  - there are about 300 system call   <--- aint nobody got time for this.
+  - unistd.h  <--- key header file    <--- aint nobody got time for this.
+                                                          *** there is man page for every system-call
+    -------------                                             ---------------------------------------
+   | Application |
+    -------------
+          |
+   -----------------
+   | Calls Library |
+   -----------------
+          |
+   -----------------
+   | System Calls  |
+   |    Kernel     | ===================================
+   -----------------                                   |
+   If there is error; library it return negative value |
+   If no-error; library will return positive or 0      |
+========================================================
+   
+   
+   
