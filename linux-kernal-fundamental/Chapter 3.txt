@@ -1,0 +1,74 @@
+What is LKM 'Linux Kernel Module'
+  - .ko suffix
+  - run in kernel space
+  - can add function 'module' to running kernel
+  - written in C and compiled in particular kernel version
+  
+Advantage of LKM
+  - can load module while running.
+  - live update
+  - live editing the module code.
+  
+Finding Kernel Installed Module
+  - /lib/modules   <--- organinzed in kernel version
+    - contain config file.
+  
+Module File.
+  - every module should have unique name.
+  - module file can be any dir.
+  - modprobe looks at /lib/modules/       <---- but we can put module anywhere and call it. 'insmod' <-- does that job.
+  - run in kernel privilege.
+  
+Practical for finding kernel module
+-----------------------------------
+cd /lib/modules/
+* most are in kernel
+cd /lib/modules/kernel/
+find . -name '.ko' | wc -l               <---- count how many module are there. 
+
+Practical lising running modules.
+---------------------------------
+lsmod                                    <--- list the running module
+rmmod '-f' <-- force                     <--- removing running module
+modinfo                                  <--- infooooo containing parameter, aliases
+depmod                                   <--- generated module config file for modprobe     <--- example; modules.dep
+insmod <path>                            <--- module can be any path
+modprobe                                 <--- load module or remove module
+
+Compiling Modules
+-----------------
+make -C /lib/modules/$(uname -r)/build M=$PWD <modules>
+
+
+Process
+-------
+  mod.c
+    |
+  mod.o
+    |
+  mod.ko
+  
+Example Module  "<filename>.o"
+--------------
+  #include <linux/init.h>                                         <---- include kernel tree
+  #include <linux/module.h>
+  #include <linux/sched.h>
+  int init_simple(void)
+  {
+    printk("in init module simple\n");
+    return 0;
+   }
+   void cleanuo_simple (void)
+   {
+    printk("in cleanup module simple\n");
+   }
+   module_init(init_simple);
+   module_exit(clean_simple);
+   
+Makefile
+--------
+echo "obj-m := simplemodule.o" > Makefile
+make -C /lib/modules/$(uname -r)/build M=$PWD modules
+insmod ./simplemodule.ko
+rmmod simplemodule
+dmesg | tail
