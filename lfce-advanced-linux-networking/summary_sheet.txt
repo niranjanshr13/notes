@@ -1,0 +1,60 @@
+  How Data Moves Through a Network
+  ================================
+    - 1. Application    = Web Browser                       = Process
+    - 2. Presentation   = Web Page                          = Code
+    - 3. Session        = HTTP Get                          = Socket
+    - 4. Transport      = TCP + header                      = Port
+    - 5. Network        = IP + TCP + header                 = Router
+    - 6. Data Link      = Frame + IP + TCP + header + Frame = Ethernet
+    - 7. Physical       = do some magic 'electron'          = NIC
+      - 1. Physical       = do some magic 'electron'           = NIC
+      - 2. Data Link      = Frame + IP + TCP + header + Frame  = Ethernet
+      - 3. Network        = IP + TCP + header                  = Router
+      - 4. Transport      = TCP + Header                       = Port
+      - 5. Session        = HTTP Get                           = Socket
+      - 6. Presentation   = Web page                           = Code
+      - 7. Application    = Web Server                         = Process
+
+  Domain Naming System (DNS)
+  ==========================
+    store dns server information:
+      - /etc/resolv.conf <-- linux file.
+        - nameserver 8.8.8.8 <--- config data.
+
+  VLAN Configuration
+  ==================
+  - file = /etc/sysconfig/network-scripts/file-name.42
+  - configure data = 'VLAN=yes'
+  - restart service
+    - It will create a different segment on interface.
+
+  Command
+  =======
+  - arp -a    <--- list arp cache
+  - arp -d '192.168.0.5 <--- delete arp cache
+  - dig www.google.com <---- DNS Record.
+  - host www.google.com <--- It will give IP address. 
+  - netstat
+  - ss
+  - ip route
+  - eth-tool
+
+  Troubleshoot
+  ============
+      Important Note:
+     -  Layer 1 'Physical' : eth-tool
+     -  Layer 2 'Data Link' : ip route, arp
+     -  Layer 3 'Network' : ip (add/route) , route , ping
+     -  Layer 4 'Transport' : netstat , ss
+     -  Mother of all : Wireshark.
+
+
+ SideNote
+ ========
+ - A name indicates what we seek.
+ - An Address indicate where it is.
+ - A route indicate how to get there.
+     Wireshark
+      - Graph
+       - Window Scaling Graph.
+       - Wireshak IO Graph
