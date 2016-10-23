@@ -28,16 +28,12 @@ that is OK if it becomes corrupted.
 • Modify your module to include the module author and module description.
 • Recompile your module. Run modinfo with the -d and -a options against your module.
 
-
-
-
-
-
-
-
-
-
-
+  - MODULE_AUTHOR ("<AUTHOR NAME>")
+  - MODULE_DESCRIPTION ("<A very simple loadable module>");
+  
+  modinfo -d <module.c>
+  modinfo -a <module.c>
+---------------------------------------------
 
 3. Add some modifiable parameters.
 • Edit your module. Add both a static int called number and a static char* called word.
@@ -47,3 +43,5 @@ Initialize number to some integer. Initialize word to some string.
 • Recompile your module. Run modinfo -p against the module.
 • Edit the init_module() function. Have it print out the values of number and word with printk().
 • Recompile and load your module. Unload and reload the module while passing new values of number and word as arguments to insmod.
+
+  - 
