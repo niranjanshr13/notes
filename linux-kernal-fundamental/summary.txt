@@ -1,0 +1,30 @@
+  - Command
+    - kernel version = uname -r
+    - dmesg
+    - getting hardware info
+      - lshw
+      - lspci
+      - lsusb
+      - lsblk
+      - lscpu
+      - lsdev
+    - command to configure and control hardware
+      - hdparm
+      - use 'echo' to control proc, dev, sys files
+      - inb
+      - outb
+      - setpci
+      
+    - grub
+        grub2 'configuration file'
+        - /etc/grub.d
+        - /etc/default/grub
+        grub2-mkconfig
+          initramfs ---> in /boot
+          gzipped CPIO archieve in initramfs image.
+        man -k grub
+
+
+Will be continue from chap.3
+
+remember; test question isn't summarized
