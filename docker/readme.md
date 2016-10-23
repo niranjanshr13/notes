@@ -25,3 +25,9 @@
 13. GUI Tools for Docker.
   - DockerUI
   - Full GUI Interfaces
+
+Reference
+  - Docker
+    - CBT Nugget's Docker
+      - https://www.cbtnuggets.com/it-training/docker
+        - Torrent Hash:
