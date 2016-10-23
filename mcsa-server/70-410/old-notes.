@@ -1,0 +1,161 @@
+'https://borntolearn.mslearn.net/certification/p/wiki?es=systemCenter&ec=410'
+MCSA 70-410
+Install and Configure server
+	Install server
+		Plan for a server installation:
+			Minimum Requirement:
+				Processor: 1.4 GHz 64 bit
+				Memory: 512 MB
+				Disk: 32 GB
+		Plan for server roles: 
+			Server roles are give you new abilities.
+			Server feature give a extra feature to the new abilities.
+		Plan for a server upgradable: "https://technet.microsoft.com/en-us/library/dn303416(v=ws.11).aspx"
+			Check the requirement
+			Check the previous versions can update to it or not.
+				32bit cannot be upgradable.
+				Basically Windows server 2008 can upgrade to windows server 2012
+		Install Server Core:
+			Basic stuff, easy
+		Optimize resource utilization by using features on demand:
+			Install-WindowsFeature <name> -restart
+			Install-WindowsFeature <name> -restart –Source <dir>
+			Install-WindowsFeature –Name <feature_name> -ComputerName <computer_name>
+			Uninstall-WindowsFeature –Name <feature_name> -ComputerName <computer_name> -Remove
+		Migrate role from previous versions of windows server:
+			Install migration feature, first: (2012)
+				smigdeploy /package /architecture <architecture> /os <ws03> /path <c:\aaa>
+			Go to server where you want update from. (2008)
+				export-smigserversetting -featureid <ID of the feature> -path <path> -verbose
+			Install role in new server (2012)
+				Then import that file from windows server migration tool.
+				net stop "role"
+				import-sigserversetting -FEATUREID <ID_NAME> -path <path of the file>
+				check for the success,
+					if fail use force switch; -force
+	Configure servers
+		Configure Server Core: "https://technet.microsoft.com/en-us/library/jj592692(v=ws.11).aspx"
+			Use "sconfig" << it is way easier.
+			Static IPAddress:
+				Get-NetIPConfiguration
+				Get-NetIPAddress
+				New-NetIPAddress –InterfaceIndex 12 –IPAddress -192.0.2.2 –PrefixLength 24 –DefaultGateway -192.0.2.1
+				Set-DNSClientServerAddress –InterfaceIndex 12 -ServerAddresses 192.0.2.4
+		
+			Join Domain:
+				net localgroup administrator /add <DomainName> \<UserName>
+
+			Enable Windows PowerShell remoting
+				Enable-PSRemoting
+		
+		Delegate Administration: "Later"
+		
+		Add and remove features in offline images
+			"DISM"
+			Install
+				Dism /Get-ImageInfo /ImageFile:C:\test\images\install.wim
+				Dism /Mount-Image /ImageFile:C:\test\images\install.wim /Name:"Windows 7 HomeBasic" /MountDir:C:\test\offline
+				Dism /Image:C:\test\offline /Add-Package /PackagePath:C:\packages\package1.cab /PackagePath:C:\packages\package2.cab
+				Dism /Unmount-Image /MountDir:C:\test\offline /Commit
+			Remove
+				Dism /Get-ImageInfo /ImageFile:C:\test\images\install.wim
+				Dism /Mount-Image /ImageFile:C:\test\images\install.wim /Name:"Windows 7 HomeBasic" /MountDir:C:\test\offline
+				Dism /Image:C:\test\offline /Get-Packages
+				DISM /Image:C:\test\offline /Remove-Package /PackageName:Microsoft.Windows.Calc.Demo~6595b6144ccf1df~x86~en~1.0.0.0 /PackageName:Microsoft-Windows-MediaPlayer-Package~31bf3856ad364e35~x86~~6.1.6801.0
+				Dism /Unmount-Image /MountDir:C:\test\offline /Commit
+		
+		Deploy roles on remote servers
+			Install-WindowsFeature -Name <feature_name> -ComputerName <computer_name> -Restart
+		
+		Convert Server Core to/from full GUI
+			Add-WindowsFeature Server-Gui-Shell, Server-Gui-Mgmt-Infra
+			Remove-WindowsFeature Server-Gui-Shell, Server-Gui-Mgmt-Infra
+			
+		Configure services
+			sc config <service name> start= {boot|system|auto|demand|disabled} "CMD"
+			
+		* Configure NIC Teaming "Bonding"
+			Combine multiple network card together.
+			
+		Install and Configure Windows PowerShell Desired State Configuration (DSC) "https://msdn.microsoft.com/en-us/powershell/dsc/configurations"
+			Add-WindowsFeature Dsc-Service
+			
+	Configure local storage
+		*Design storage spaces
+		
+		Configure basic and dynamic disks
+			Gui = Disk Management
+			CMD: (basic to dynamic)
+				diskpart
+				select disk
+				convert dynamic
+				-(dynamic to basic)
+					select disk
+					detail disk
+					select volumes
+					convert basic
+					
+		Configure master boot record (MBR) and GUID partition table (GPT) disks
+			All file will be delete while changing.
+			ui = Disk Management
+			CMD: (gpt)
+				diskpart
+				select disk
+				convert gpt
+				-(mbr)
+					select disk
+					convert mbr
+		#*Manage volumes
+		
+		Create and mount virtual hard disks (VHDs)
+			diskpart
+			create vdisk file=c:\vhd\test.vhd maximum=2000 type=expandable
+			
+		Configure storage pools and disk pools
+			New-StoreagePool
+		
+		Create storage pools by using disk enclosures
+			Install-WindowsFeature –ComputerName Server1 –Name Multipath-IO
+			Get-Disk | Where-Object IsSystem –eq $False
+			New-VirtualDisk –StoragePoolFriendlyName StoragePool –FriendlyName VirtualDisk1 –ResiliencySettingName Mirror –ProvisioningType Fixed –Size 10TB –IsEnclosureAware $True
+			
+Configure server roles and features
+	Configure file and share access
+		*Create and Configure shares
+		
+		*Configure share permissions
+		
+		*Configure offline files
+		
+		*Configure NTFS permissions 
+		
+		*Configure access-based enumeration (ABE)
+			Show only the file which a person have access
+		*Configure Volume Shadow Copy Service (VSS)
+		
+		*Configure NTFS quotas
+		
+		*Create and Configure Work Folders
+		
+	Configure print and document services
+		Configure the Easy Print print driver
+		
+		Configure Enterprise Print Management
+		
+		Configure drivers
+		
+		Configure printer pooling
+		
+		Configure print priorities
+		
+		Configure printer permissions
+		
+	Configure servers for remote management	
+		Configure WinRM
+		
+		Configure down-level server management
+		Configure servers for day-to-day management tasks
+		Configure multi-server management
+		Configure Server Core
+		Configure Windows Firewall
+		Manage non-domain joined servers
