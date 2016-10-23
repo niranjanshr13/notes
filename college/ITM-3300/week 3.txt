@@ -1,0 +1,26 @@
+  - DDoS
+    - DDoS attack are the attack that by literally crashing the system and which will basically deny any request. 
+  - Ping Flooding
+    - Ping Flooding attack are the being done by sending huge number of ICMP packet to the server, which make the server to stop function because of it cannot process through huge number of request.
+  - Syn Flooding
+    - Syn Flooding attack are the done sending huge number of syn packet to the server with no acknowledgement to it.
+  - Smurf Flooding
+    - Smurf Flooding is to manipulate the DNS system, sending Smurf flooding.
+  - Interception
+    - Interception is intercepting packet between client and the server.
+  - Man-in-the middle
+    - It is attack done by intercepting the information and being a middle man of the transaction between to victim to server(router).
+  - Replay attacks
+    - Replay attack are done by recording data, or transaction flow and using it later by just sending the same transaction which was recorded.
+  - Poisoning
+    - Poisoning is send fake information.
+  - ARP Poisoning
+    - Arp poisoning are the attack are masking it mac address and the IP address of the receiver and attacker.
+  - Domain Name System poisoning (DNS Poisoning)
+    - DNS Poisoning are the attack are that is done disguise DNS to redirect address to another website.
+  - Access right
+    - Access right are the attack done by hacking to the system, which doesn’t have a permission to block the access.
+  - Privilege Escalation
+    - Privilege Escalation are the attack done by escalating the permission of OS or file and having access to it.
+  -Transitive Access
+    - Transitive Access are the attack are the attack is done by manipulating logic of the permission, for example: if A has same permission as B, and B has the same permission as C. Therefore, making A permission as C.
