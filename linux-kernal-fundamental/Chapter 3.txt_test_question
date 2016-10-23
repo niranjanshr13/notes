@@ -44,4 +44,14 @@ Initialize number to some integer. Initialize word to some string.
 • Edit the init_module() function. Have it print out the values of number and word with printk().
 • Recompile and load your module. Unload and reload the module while passing new values of number and word as arguments to insmod.
 
-  - 
+  Parameter
+  ---------
+    - static init number = 123
+    - static char *word  = "bla";
+    
+  Command
+  -------
+    - modinfo -p <module.ko>    <--- show info of module parameter
+    - insmod <module.ko>        <--- load module
+    - dmesg | tail              <--- dmesg
+    - insmod <module.ko> number=345 word="apla" <--- assign custom value.
