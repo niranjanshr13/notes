@@ -1,0 +1,14 @@
+* Trick's and Tips
+
+
+           LCR                    <---- Look at the L'C'R <---- which means 'C' can help with Credit is Increase 
+----------------------
+Dr          | Cr
+Decrease    | Increase
+            | Normal
+            
+            ADE                   <---- Look ath the A'D'E <---- which means 'D' can help with Debit is Increase
+------------------------
+DR          | CR
+Increase    | Decrease
+Normal      | 
