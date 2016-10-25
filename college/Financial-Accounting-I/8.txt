@@ -28,7 +28,9 @@
           
       Revenue Recognition
       -------------------
-        -  Revenue is recognized when the service has been performed / rendered/ earned o the goods have been received. 
+        -  Revenue is recognized when the service has been performed 
+                                                           rendered
+                                                           earned o the goods have been received. 
         
         - Expenses are recognized when incurred
         - Understand: Accrual basis vs cash basis
