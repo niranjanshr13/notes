@@ -1,1 +1,66 @@
-#
+  Getting kernel source:- 
+    CentOS: yumdownloader --source kernel
+    Ubuntu: git clone git://kernel.ubuntu.com/ubuntu/ubuntu-<release codename>.git
+    Official: 'https://cdn.kernel.org/pub/linux/kernel/v4.x/testing/linux-4.9-rc2.tar.xz'
+      - unxz linux*
+      - tar -xf linux*
+        - done.
+        
+    Makefile
+    --------
+    Cleaning targets:
+      - clean
+        - Remove most generated files but keep the config
+      - mrproper
+        - Remove most generated files + config + various backup files.
+      - distclean
+        - mrproper + remove editor backup and patch files
+    Configuration targets:
+      - xconfig 'gui'
+        - QT based front-end
+      - gconfig 'gui'
+        - GTK based front-end
+      - menuconfig
+        - Menu based program
+      - config
+        - Line-oriented
+    Generic target
+      - all
+        - build all target marked with [*]
+        * vmlinux
+          - build bare kernel
+        * modules
+          - build all modules
+        * modules_install
+          - install all modules to INSTALL_MOD_PATH (default: /)
+    Installation:
+      - CentOS:-  
+        - yumdownloader --source kernel
+        - rpm -i ker*.rpm         <--- you don't need sudo. It will create ~/rpmbuild folder.
+        - cd ~/rpmbuild/SPECS     <----- you just do it.
+        - rpmbuild -bp kernel.spec  <--- if you don't have rpmbuild; install rpm-build and it ask for other program, just install it and for the per; try per-....-...
+        - cd ../BUILD/k*/l*   <--- done.
+        
+  Documentation:
+    - devices.txt
+    - docbooks  <--- have lengthy manual type documents
+        
+  cscope  - for index
+    - make cscope
+      - cscope -d
+        - try printk in gloval defination.
+        - exit = CTRL + D
+        
+ Directory.
+ ----------
+  - mem.c
+    - cd /drivers/char/
+ 
+ include = ../include
+ filesystem = ../fs
+ architecture = ../arch
+ security = ../security/secutiy.c <--- selinux and apparmor
+        
+Tricks:
+  - grep -ril        <--- for recursive grep; use for the documentation.
+  - vi -t <keyword>
