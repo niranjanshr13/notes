@@ -1,0 +1,19 @@
+Configuring and Building
+  - make menuconfig           <--- remember there are gui too; menuconfig tui
+    - select the module to install; then exit it till to you get save pop-up
+    - at the end it creates '.config'
+    
+Modifying existed kernel config
+  - rename config... into '.config'
+  - make xconfig  <--- tada!!
+  
+
+
+
+
+
+
+
+
+*Tips
+- /boot/config...     <--- it has the '.config' config file that can be use will creating new kernel.
