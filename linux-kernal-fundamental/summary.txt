@@ -23,8 +23,44 @@
           initramfs ---> in /boot
           gzipped CPIO archieve in initramfs image.
         man -k grub
+  - Kernel 
+    - .ko suffix
+    
+    cscope  - for index
+    - make cscope
+      - cscope -d
+        - try printk in gloval defination.
+        - exit = CTRL + D
+    
+    Configuring and Building
+    - make menuconfig           <--- remember there are gui too; menuconfig tui
+      - select the module to install; then exit it till to you get save pop-up
+      - at the end it creates '.config'
+    
+    Modifying existed kernel config
+     - rename config... into '.config'
+      - make xconfig  <--- tada!! gui! <-- it is easy.
+      - require to install ncurses-devel and qt-devel
+
+    Compiling bzImage
+     - make -j20 bzImage
+      - find . -name bzImage
+
+    Installing Kernel
+     - make install
+       - kernel is installed in /boot.
+       - ls -lt
+    Compiling modules
+      - make -j20 modules
+
+    Installing modules.
+     - make modules_install         <--- need root for this
+      - modules in installed in /lib/modules/xxxx-<EXTRAVERSION>
 
 
-Will be continue from chap.3
 
+
+---
 remember; test question isn't summarized
+---
+Note to myself:- If you think you know, just complete attached course; without any help.
