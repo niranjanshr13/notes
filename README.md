@@ -17,10 +17,7 @@ Just some notes.
     - Pluralsight Linux Managing DNS Servers LPIC 2
       - https://www.pluralsight.com/courses/linux-managing-dns-servers-lpic-2
       - Torrent Hash: 2C194A8A48A98339F88176EF7AD28A6CC86DF3E9
-  - Linux Kernel
-    - Linux Kernel Fundamentals
-      - https://www.lynda.com/Linux-tutorials/Linux-Kernel-Fundamentals/456662-2.html
-      - Torrent Hash: 06719b6cebb4c4aa88fa7cac89d6948cc693bb99
+
       
 #Postpond Course:
   - Powershell
@@ -65,3 +62,7 @@ Just some notes.
     - CBT Nugget's Docker
       - https://www.cbtnuggets.com/it-training/docker
       - Torrent Hash: 
+  - Linux Kernel
+    - Linux Kernel Fundamentals
+      - https://www.lynda.com/Linux-tutorials/Linux-Kernel-Fundamentals/456662-2.html
+      - Torrent Hash: 06719b6cebb4c4aa88fa7cac89d6948cc693bb99
