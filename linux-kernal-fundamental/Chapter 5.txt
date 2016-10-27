@@ -6,8 +6,7 @@ Configuring and Building
 Modifying existed kernel config
   - rename config... into '.config'
   - make xconfig  <--- tada!! gui! <-- it is easy.
-  
-
+    - require to install ncurses-devel and qt-devel
 
 Compiling bzImage
   - make -j20 bzImage
