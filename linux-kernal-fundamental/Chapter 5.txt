@@ -12,10 +12,19 @@ Modifying existed kernel config
 Compiling bzImage
   - make -j20 bzImage
     - find . -name bzImage
+
+Installing Kernel
+  - make install
+    - kernel is installed in /boot.
+      - ls -lt
 Compiling modules
   - make -j20 modules
+
 Installing modules.
   - make modules_install         <--- need root for this
+    - modules in installed in /lib/modules/xxxx-<EXTRAVERSION>
+
+
 
 
 
@@ -23,4 +32,3 @@ Installing modules.
 - /boot/config...     <--- it has the '.config' config file that can be use will creating new kernel.
 - .config             <--- it is what menuconfig / xconfig use it; it is a kernel configuration file for adding or removing module.
                       <--- /proc/config.gz
-                      
