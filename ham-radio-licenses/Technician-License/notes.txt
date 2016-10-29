@@ -29,7 +29,24 @@ ITU
 - 443.350 Mhz
 23 cm frequency
 - 1296 Mhz
+-----------
+223.60 Mhz
+- 1.25 meter band
+--continue from t1b11
+
+
+
+
+
+
+
+
+
+
 
 
 * Note:
 	-	Page 1 Done.
+	-	need to write
+		-	t1b09
+		-	t1b11
