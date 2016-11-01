@@ -1,0 +1,54 @@
+Accounting #10
+--------------
+Accumulated depreciation will be on the midterm
+
+# accumulated depreciation
+# ------------------------
+# presentation on the balance sheet page 117
+
+For example: if the original car is 30,000
+          -  then if it is meant to last at least 6 year, 
+          -  then it means that it will 30,000/6 = 5,000 per year depreciation every year.
+
+* Less or use bracket in journal entries.
+
+Example
+-------
+  cash                                       1
+  short term investment                      3
+  account receivable                         4
+  inventory                                 10
+  prepaid advertising                        3
+  office supplies                            2
+  car                                 25
+  less accumulated depreciation        5
+      Total                           30    23
+
+Important Example
+-----------------
+Building                          30,000
+Less Accumulated depreciation    <17,000>     <--- use the bracket or the less
+                                          303,000 <--- is referred to as the book value / 
+                                                       netbook value/ net realizable value /
+                                                       carrying value
+---------------------------------------------------------------------------------------------
+Land always appreciate; it is never depreciation
+
+
+Prepare the following adjusting journal entries
+-----------------------------------------------
+  Accrued salaries for the month are 80,000
+    Dr salaries expense     ___
+      Cr salaries payable         ____
+
+  Depreciation for the year on the car is 4,000
+    Dr Depreciation Expense  ___
+      Cr Account Depreciation     _____
+  
+  Accrued interest earned on the __ is 78
+    Dr. Interest Receivable   ___
+      Cr. Interest Expense        _____
+
+The supplies account had a beginning balance of $3,375 and was debited for $6,450 for supplies purchased during the year. Journalize the adjusting entry required at the end of the year, assuming the amount of supplies on hand is $2,980.
+    - calculate how much was used up / spent/ consumed a expired
+    - this will be the amount to expense
