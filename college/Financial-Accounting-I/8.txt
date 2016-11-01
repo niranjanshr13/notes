@@ -21,7 +21,7 @@
         - Know the matches in adjusting entries
         - Know the rules for adjusting entries
         
-        - Accomulated Depreciation
+        - Accumulated Depreciation
           - Found among the assests
           - Contra assets account
           - Normal Balance is a credit
