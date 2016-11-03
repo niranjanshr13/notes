@@ -1,5 +1,45 @@
 * Trick's and Tips
 
+Income Statement
+----------------
+ F = Fees
+ R = Revenue
+ I = Income
+ E = Earned
+ S = Sales
+
+Expenses
+--------
+  - Cost of sales / cost of goods sold, cost of merchandic sold
+  - Expense
+
+Liabilitiies
+------------
+  - U = Unearned 
+  - P = Payable
+  - L = Liabilities
+  - O = Obligation
+
+Six Assets must be written  in order (Order of liquidity
+--------------------------------------------------------
+  1. Cash
+  2. Short term investment / marketable securities
+  3. Receivables
+  4. Inventory
+  5. Prepaids
+  6. Supplies
+  7. All other assets
+
+
+- These accounts; normally have a debt balance
+  - A = Assets
+  - D = Drawing / Withdraw
+  - E = Expense
+- These accounts; normally have a credit balance
+  - L = Liabilities
+  - C = Capital
+  - R = Revenue
+
 
            LCR                    <---- Look at the L'C'R <---- which means 'C' can help with Credit is Increase 
 ----------------------
@@ -12,3 +52,10 @@ Decrease    | Increase
 DR          | CR
 Increase    | Decrease
 Normal      | 
+
+
+        Assets        =       Liabilities         +          Owner's Equity
+                                                              (+) R = Revenue
+                                                              (-) E = Expenses
+                                                              (-) D = Drawing
+                                                              (+) C = Capital
