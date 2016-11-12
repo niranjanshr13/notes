@@ -1,0 +1,22 @@
+Swarm
+-----
+  master: docker swarm init --advertise-addr <master ip>
+  slave: docker swarm join --token SWMTKN-1-3pu6hszjas19xyp7ghgosyx9k8atbfcr8p2is99znpy26u2lkl-7p73s1dx5in4tatdymyhg9hu2 192.168.99.121:2377
+    - use master token to connect and be as slave.
+      - docker swarm join-token worker
+    - or generate own token and send to master to connect.
+      
+  list node: docker node ls
+  deploy: docker service create --replicas 1 --name helloworld alpine ping docker.com
+    - important --replicas
+  inspect: docker service inspect --pretty helloworld
+           docker service ps helloworld
+  scaling: docker service scale helloworld=5
+  deleting: docker service rm helloworld
+
+
+
+
+Reference:
+  Docker's docs
+  http://lucjuggery.com/blog/?p=566
