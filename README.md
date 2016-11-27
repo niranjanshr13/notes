@@ -19,6 +19,10 @@ Just some notes.
       - Torrent Hash: 2C194A8A48A98339F88176EF7AD28A6CC86DF3E9
   - Ham License
     - Technical License
+  
+  - Vagrant
+    - Linux Academy - Learning Vagrant
+    - Torrent Hash: 778dff507da0f24d2600dbb78ce9a70c4b892bd7
       
       
 #Postpond Course:
