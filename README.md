@@ -9,21 +9,16 @@ Just some notes.
     - Getting Started with Puppet
       - https://www.udemy.com/getting-started-with-puppet/
       - Torrent Hash: 5a4cb815128a200353721b760960e93e5c99107f
-  - Ansible
-    - Pluralsight - Hands-on Ansible
-      - https://www.pluralsight.com/courses/hands-on-ansible
-      - Torrent Hash: 9050123caa1d39a30393a1747efa3855d5b8e2e2
   - DNS Server
     - Pluralsight Linux Managing DNS Servers LPIC 2
       - https://www.pluralsight.com/courses/linux-managing-dns-servers-lpic-2
       - Torrent Hash: 2C194A8A48A98339F88176EF7AD28A6CC86DF3E9
   - Ham License
     - Technical License
-  
   - Vagrant
     - Linux Academy - Learning Vagrant
-    - Torrent Hash: 778dff507da0f24d2600dbb78ce9a70c4b892bd7
-      
+    - https://linuxacademy.com/devops/training/course/name/vagrant
+    - Torrent Hash: 778dff507da0f24d2600dbb78ce9a70c4b892bd7  
       
 #Postpond Course:
   - Powershell
@@ -33,7 +28,10 @@ Just some notes.
   - Python
     - Mastering Python - Networking and Security <--- recommended not to learn from this course, totally vague and full of pre-made script.
       - Torrent Hash: 9938c2269cbfd54ccf6a0007689a8e81e8865167
-      
+   - Ansible 'postpond until i learn vagrant; because this course highly depend upon vagrant.'
+    - Pluralsight - Hands-on Ansible
+      - https://www.pluralsight.com/courses/hands-on-ansible
+      - Torrent Hash: 9050123caa1d39a30393a1747efa3855d5b8e2e2
 #Complete Course:
   - DMV Guide Book 'NYC'
   - Python
