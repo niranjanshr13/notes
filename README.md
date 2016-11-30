@@ -15,10 +15,7 @@ Just some notes.
       - Torrent Hash: 2C194A8A48A98339F88176EF7AD28A6CC86DF3E9
   - Ham License
     - Technical License
-  - Vagrant
-    - Linux Academy - Learning Vagrant
-    - https://linuxacademy.com/devops/training/course/name/vagrant
-    - Torrent Hash: 778dff507da0f24d2600dbb78ce9a70c4b892bd7  
+      
       
 #Postpond Course:
   - Powershell
@@ -73,3 +70,7 @@ Just some notes.
     - Linux Kernel Fundamentals
       - https://www.lynda.com/Linux-tutorials/Linux-Kernel-Fundamentals/456662-2.html
       - Torrent Hash: 06719b6cebb4c4aa88fa7cac89d6948cc693bb99
+  - Vagrant
+    - Linux Academy - Learning Vagrant
+    - https://linuxacademy.com/devops/training/course/name/vagrant
+    - Torrent Hash: 778dff507da0f24d2600dbb78ce9a70c4b892bd7  
