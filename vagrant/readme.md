@@ -8,8 +8,10 @@ Vagrant
 - Vagrantfile
 - Vagrant command
 - basic networking
-
-
+- automated provisioning
+- networking.md	Rename networking
+- multiple box in one Vagrantfile
+- creating from scratch
 
 
 
