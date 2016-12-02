@@ -15,7 +15,7 @@ Just some notes.
       - Torrent Hash: 2C194A8A48A98339F88176EF7AD28A6CC86DF3E9
   - Ham License
     - Technical License
-  - Ansible 'postpond until i learn vagrant; because this course highly depend upon vagrant.'
+  - Ansible
     - Pluralsight - Hands-on Ansible
       - https://www.pluralsight.com/courses/hands-on-ansible
       - Torrent Hash: 9050123caa1d39a30393a1747efa3855d5b8e2e2
