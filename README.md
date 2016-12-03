@@ -5,10 +5,6 @@ Just some notes.
   - MCSA 70-410
     - https://www.cbtnuggets.com/it-training/microsoft-windows-server-2012-training-70-410-r2
     - Torrent Hash: 63324AA4AB10DC2547356D185E42BC8D8A7C0A41
-  - Puppet
-    - Getting Started with Puppet
-      - https://www.udemy.com/getting-started-with-puppet/
-      - Torrent Hash: 5a4cb815128a200353721b760960e93e5c99107f
   - DNS Server
     - Pluralsight Linux Managing DNS Servers LPIC 2
       - https://www.pluralsight.com/courses/linux-managing-dns-servers-lpic-2
@@ -29,7 +25,10 @@ Just some notes.
   - Python
     - Mastering Python - Networking and Security <--- recommended not to learn from this course, totally vague and full of pre-made script.
       - Torrent Hash: 9938c2269cbfd54ccf6a0007689a8e81e8865167
-
+  - Puppet 'after ansible is done.'
+    - Getting Started with Puppet
+      - https://www.udemy.com/getting-started-with-puppet/
+      - Torrent Hash: 5a4cb815128a200353721b760960e93e5c99107f
       
 #Complete Course:
   - DMV Guide Book 'NYC'
