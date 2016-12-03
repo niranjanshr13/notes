@@ -15,7 +15,10 @@ Just some notes.
     - Pluralsight - Hands-on Ansible
       - https://www.pluralsight.com/courses/hands-on-ansible
       - Torrent Hash: 9050123caa1d39a30393a1747efa3855d5b8e2e2
-      
+  - Javascript
+    - Lynda - JavaScript Essential Training
+      - https://www.lynda.com/JavaScript-tutorials/JavaScript-Essential-Training/81266-2.html
+      - Torrent Hash: 0321C400969ADF7268864F1CBA3B6110C4D4F192
       
 #Postpond Course:
   - Powershell
