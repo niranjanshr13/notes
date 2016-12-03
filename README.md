@@ -19,6 +19,10 @@ Just some notes.
     - Lynda - JavaScript Essential Training
       - https://www.lynda.com/JavaScript-tutorials/JavaScript-Essential-Training/81266-2.html
       - Torrent Hash: 0321C400969ADF7268864F1CBA3B6110C4D4F192
+  - SElinux
+    - Pluralsight Security Enhanced Linux (SELinux) Fundamentals
+      - https://www.pluralsight.com/courses/security-enhanced-linux-selinux-fundamentals
+      - Torrent Hash: 0acc47c727576562d0bcf86369407619e01e4f72
       
 #Postpond Course:
   - Powershell
