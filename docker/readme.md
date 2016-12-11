@@ -27,13 +27,15 @@
   - Full GUI Interfaces
 
 + Swarm
-Reference
-  - Docker
+
+#Reference
+```
+- Docker
     - CBT Nugget's Docker
       - https://www.cbtnuggets.com/it-training/docker
         - Torrent Hash:
     - Docker docs
-
+```
 
 #Some website found
 ```
