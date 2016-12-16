@@ -1,4 +1,4 @@
-#What is Managerial Control
+#Managerial Control
 ```
   Sign's that a Company Lacks Controls:
   -------------------------------------
