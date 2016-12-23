@@ -1,5 +1,5 @@
 # 6. Fingerprint Principles
-----------------------
+
 - A reproduction of friciton skin ridges found on the palm side of the finger.
 - Study of its ridge characteristics = Minutiae
 
