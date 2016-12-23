@@ -1,5 +1,4 @@
-  # 5. Autopsy
-  --------
+# 5. Autopsy
 
 Autopsy: is simply the examination of a body after death. 
   
