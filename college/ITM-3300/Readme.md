@@ -9,3 +9,8 @@ ISBN:
 
 Course Covers:
 - CompTIA Security+ SY0-401
+
+
+
+SideNote:
+- Course is completed; with all the notes exception of fews.
