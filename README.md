@@ -81,3 +81,7 @@ Just some notes.
     - Pluralsight Security Enhanced Linux (SELinux) Fundamentals
       - https://www.pluralsight.com/courses/security-enhanced-linux-selinux-fundamentals
       - Torrent Hash: 0acc47c727576562d0bcf86369407619e01e4f72
+  - Image Manipulation
+    - Image Manipulation With Python
+      - https://teamtreehouse.com/library/image-manipulation-with-python 
+      - Torrent Hash: 35c4d42e205cb071cae6d120110f453fa3424d5f
