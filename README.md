@@ -85,3 +85,6 @@ Just some notes.
     - Image Manipulation With Python
       - https://teamtreehouse.com/library/image-manipulation-with-python 
       - Torrent Hash: 35c4d42e205cb071cae6d120110f453fa3424d5f
+  - LAMP stack
+    - Virtual Machine full localhost LAMP stack setup in minutes
+      - https://www.udemy.com/virtual-machine-full-localhost-lamp-stack-setup-tutorial
