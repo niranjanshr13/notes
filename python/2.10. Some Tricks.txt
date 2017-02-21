@@ -1,0 +1,12 @@
+# This is great snippet.
+words = [file.strip() for file in open('someFile.txt', 'r').readlines()]
+print(words)
+
+
+
+
+
+
+
+Reference:
+  - https://www.safaribooksonline.com/library/view/intermediate-python-programming/9781491954935/
