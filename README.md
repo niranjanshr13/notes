@@ -46,6 +46,8 @@ Just some notes.
       - Torrent Hash: 8ea36d1b8f789145ce8f52f26c27ab3a6c27f534
     - Ethical Hacking,Python and Linux Combo course
       - Torrent Hash: ccdaf2062281caff1d1f277b007c35b1555318f8
+    - Intermediate Python Programming
+      - https://www.safaribooksonline.com/library/view/intermediate-python-programming/9781491954935/
   - RedHat RHCSA
     - Red Hat RHCSA/RHCE 7 Cert Guide: Red Hat Enterprise Linux 7 
       - ISBN10: 0789754053
@@ -88,3 +90,6 @@ Just some notes.
   - LAMP stack
     - Virtual Machine full localhost LAMP stack setup in minutes
       - https://www.udemy.com/virtual-machine-full-localhost-lamp-stack-setup-tutorial
+  - Shell Scripting
+    - Robust Shell Scripting
+      - https://www.safaribooksonline.com/library/view/robust-shell-scripting/9781491962527/
