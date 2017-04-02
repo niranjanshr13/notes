@@ -1,6 +1,8 @@
-
-Reference:-
-https://www.safaribooksonline.com/library/view/python-numpy/100000006A0449/
-
+# Reference
 Python NumPy
-by Stone River eLearning
+
+Publisher: Stone River eLearning
+
+Link: https://www.safaribooksonline.com/library/view/python-numpy/100000006A0449/
+
+ISBN: 100000006A0449
