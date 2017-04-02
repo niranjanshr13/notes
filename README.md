@@ -19,9 +19,7 @@ Just some notes.
     - Lynda - JavaScript Essential Training
       - https://www.lynda.com/JavaScript-tutorials/JavaScript-Essential-Training/81266-2.html
       - Torrent Hash: 0321C400969ADF7268864F1CBA3B6110C4D4F192
-  - Numpy
-    - Python NumPy
-      - https://www.safaribooksonline.com/library/view/python-numpy/100000006A0449
+      
       
 #Postpond Course:
   - Powershell
@@ -95,3 +93,7 @@ Just some notes.
   - Shell Scripting
     - Robust Shell Scripting
       - https://www.safaribooksonline.com/library/view/robust-shell-scripting/9781491962527/
+  - Numpy
+    - Python NumPy
+      - https://www.safaribooksonline.com/library/view/python-numpy/100000006A0449
+      - ISBN: 100000006A0449
