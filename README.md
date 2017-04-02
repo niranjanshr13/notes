@@ -19,6 +19,10 @@ Just some notes.
     - Lynda - JavaScript Essential Training
       - https://www.lynda.com/JavaScript-tutorials/JavaScript-Essential-Training/81266-2.html
       - Torrent Hash: 0321C400969ADF7268864F1CBA3B6110C4D4F192
+  - Go Language
+    - Learning Path: Go Fundamentals
+      - https://www.safaribooksonline.com/library/view/learning-path-go/9781491958100/
+      - ISBN: 9781491941874
       
       
 #Postpond Course:
