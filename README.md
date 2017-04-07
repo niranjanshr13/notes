@@ -1,10 +1,7 @@
 # notes
 Just some notes.
 
-#Continuing Course:
-  - MCSA 70-410
-    - https://www.cbtnuggets.com/it-training/microsoft-windows-server-2012-training-70-410-r2
-    - Torrent Hash: 63324AA4AB10DC2547356D185E42BC8D8A7C0A41
+# Continuing Course:
   - DNS Server
     - Pluralsight Linux Managing DNS Servers LPIC 2
       - https://www.pluralsight.com/courses/linux-managing-dns-servers-lpic-2
@@ -23,9 +20,12 @@ Just some notes.
     - Learning Path: Go Fundamentals
       - https://www.safaribooksonline.com/library/view/learning-path-go/9781491958100/
       - ISBN: 9781491941874
+  - Perl Language
+    - Perl Fundamentals
+      - https://www.safaribooksonline.com/library/view/perl-fundamentals-video/9780137013142/
+      - ISBN: 9780137013142
       
-      
-#Postpond Course:
+# Postpond Course:
   - Powershell
     - Learn Windows PowerShell in a Month of Lunches 2nd Edition  <--- will be continue, when I get my 70-410 certification
       - ISBN-10: 1617291080
@@ -37,8 +37,12 @@ Just some notes.
     - Getting Started with Puppet
       - https://www.udemy.com/getting-started-with-puppet/
       - Torrent Hash: 5a4cb815128a200353721b760960e93e5c99107f
-      
-#Complete Course:
+  - MCSA 70-410
+    - https://www.cbtnuggets.com/it-training/microsoft-windows-server-2012-training-70-410-r2
+    - Torrent Hash: 63324AA4AB10DC2547356D185E42BC8D8A7C0A41
+
+
+# Complete Course:
   - DMV Guide Book 'NYC'
   - Python
     - The Complete Python Programming Course by 'Avinash Jain'
