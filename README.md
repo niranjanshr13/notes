@@ -20,7 +20,9 @@ Just some notes.
     - Learning Path: Go Fundamentals
       - https://www.safaribooksonline.com/library/view/learning-path-go/9781491958100/
       - ISBN: 9781491941874
-
+  - Nginx
+    - Nginx - Beginner to Advanced
+      - https://www.udemy.com/nginx-beginner-to-advanced/
       
 # Postpond Course:
   - Powershell
