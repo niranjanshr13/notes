@@ -20,10 +20,7 @@ Just some notes.
     - Learning Path: Go Fundamentals
       - https://www.safaribooksonline.com/library/view/learning-path-go/9781491958100/
       - ISBN: 9781491941874
-  - Perl Language
-    - Perl Fundamentals
-      - https://www.safaribooksonline.com/library/view/perl-fundamentals-video/9780137013142/
-      - ISBN: 9780137013142
+
       
 # Postpond Course:
   - Powershell
@@ -105,3 +102,7 @@ Just some notes.
     - Python NumPy
       - https://www.safaribooksonline.com/library/view/python-numpy/100000006A0449
       - ISBN: 100000006A0449
+  - Perl Language
+    - Perl Fundamentals
+      - https://www.safaribooksonline.com/library/view/perl-fundamentals-video/9780137013142/
+      - ISBN: 9780137013142
