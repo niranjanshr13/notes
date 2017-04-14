@@ -34,8 +34,7 @@
   - arp -d '192.168.0.5 <--- delete arp cache
   - dig www.google.com <---- DNS Record.
   - host www.google.com <--- It will give IP address. 
-  - netstat
-  - ss
+  - netstat / ss
   - ip route
   - eth-tool
 
