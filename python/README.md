@@ -1,4 +1,4 @@
-#Udemy python for beginners
+# Udemy python for beginners
 * All the course from udemy isn't written for notes; because after this pretty much, it is statistics and gui; and below chaper are pretty much boring to learn.
   - Chapter 10 'MatPlotLib - Charts, Plots and 3D Figures'
   - Chapter 11 'Data Analysis with Pandas'
@@ -64,10 +64,12 @@ Python notes and uses; probably basic stuff.
 Reference:
 ==========
 - https://www.youtube.com/watch?v=rkx5_MRAV3A  <-- recommend to see this video first.
-- Learn Python The Complete Python Programming Course (Udemy) 'https://www.udemy.com/pythonforbeginners/' 
+- Learn Python The Complete Python Programming Course (Udemy) 
+  - https://www.udemy.com/pythonforbeginners 
 - Automate the Boring Stuff with Python Programming
   - Torrent Hash: 472ee340bae6f6bf2b5d63bf5a0f692f0c4d22c4
 - Mastering Python - Networking and Security
   - Torrent Hash: 9938c2269cbfd54ccf6a0007689a8e81e8865167
 
-Use docker as learning environment; python images.
+Use docker as learning environment
+  - docker pull python
