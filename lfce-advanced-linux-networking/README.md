@@ -1,4 +1,4 @@
-#Note Content:
+# Note Content:
   - Network Topologies
   - Network Devices / Interface
   - OSI Model
@@ -39,4 +39,4 @@
  - LFCE: Advanced Linux Networking
   - https://www.pluralsight.com/courses/linux-networking-advanced-lfce
    - Torrent Hash: 5B8300EF5DDBC03E08E792ACFEDE49EE9707B586
- - https://www.youtube.com/watch?v=nFYilGQ-p-8 <-- easy understanding IPv4.
+ - https://www.youtube.com/watch?v=nFYilGQ-p-8 <-- easy understanding subnet IPv4.
