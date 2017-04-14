@@ -1,4 +1,4 @@
-#Docker
+# Docker
 ```
 5. Create a Simple Dockerized App
 6. Managing Containers and Images
@@ -19,7 +19,7 @@
   - Full GUI Interfaces
 + Swarm
 ```
-#Reference
+# Reference
 ```
 - Docker
     - CBT Nugget's Docker
@@ -29,7 +29,7 @@
     - http://lucjuggery.com/blog/?p=566
 ```
 
-#Some website found
+# Some website found
 ```
 https://www.youtube.com/watch?v=YFl2mCHdv24&list=WL
 https://www.youtube.com/playlist?list=PLkA60AVN3hh_6cAz8TUGtkYbJSL2bdZ4h      <--- I really didn't learn from him.
