@@ -108,3 +108,7 @@ Just some notes.
     - Perl Fundamentals
       - https://www.safaribooksonline.com/library/view/perl-fundamentals-video/9780137013142/
       - ISBN: 9780137013142
+  - Nginx
+      - Beginners Guide to master the HTTP Protocol and NGINX
+      - https://www.udemy.com/nginx-beginner-to-advanced/
+      - Instructor: Zeal Vora
