@@ -9,6 +9,6 @@ Url: https://www.udemy.com/nginx-beginner-to-advanced/
 
 ```
 Note:
-    - I ignored crytography module; because it is same as other.
+    - I ignored cryptography module; because it is same as other.
     - I ignored waf (Web Application Firewall) module too.
 ```
