@@ -112,5 +112,5 @@ Just some notes.
   - VIM
     - Smash into Vim
       - Torrent Hash: 877df6bb8ddad5c8d47a8acc3f016e9b5f2b08c4
-      - Note: (I had learned way back, but I was unable to adapt from this course, learned from thoughtbot clips and vimwiki)
+      - Note: I had learned way back, but I was unable to adapt from this course, learned from thoughtbot clips and vimwiki
       - Note: I don't have to, its in muscle memories, but there always new way to do things.
