@@ -11,11 +11,11 @@ Just some notes.
   - Ansible
     - Pluralsight - Hands-on Ansible
       - https://www.pluralsight.com/courses/hands-on-ansible
-      - Torrent Hash: 9050123caa1d39a30393a1747efa3855d5b8e2e2
+       - Torrent Hash: 9050123caa1d39a30393a1747efa3855d5b8e2e2
   - Javascript
     - Lynda - JavaScript Essential Training
       - https://www.lynda.com/JavaScript-tutorials/JavaScript-Essential-Training/81266-2.html
-      - Torrent Hash: 0321C400969ADF7268864F1CBA3B6110C4D4F192
+       - Torrent Hash: 0321C400969ADF7268864F1CBA3B6110C4D4F192
   - Go Language
     - Learning Path: Go Fundamentals
       - https://www.safaribooksonline.com/library/view/learning-path-go/9781491958100/
@@ -58,10 +58,10 @@ Just some notes.
       - https://www.pearsonitcertification.com/store/red-hat-certification-system-administrator-rhcsa-complete
       - Torrent Hash: 
     - How Linux Works What Every Superuser Should Know
-     - Torrent Hash: 296d552a3c42fc2bc98afd1a9b43f6c6ec06ed1c
+      - Torrent Hash: 296d552a3c42fc2bc98afd1a9b43f6c6ec06ed1c
   - LPIC 1
     - CBT Nuggets - LPI Linux LPIC-1 101
-    - Torrent Hash: 0FE3B4BAF406BCE0355ACC6EA16D2142200EFFC6
+      - Torrent Hash: 0FE3B4BAF406BCE0355ACC6EA16D2142200EFFC6
   - MCSA 70-410
     - Trainsignal 'Pluralsight' : For basic knowledge of 70-410. This course is overview; doesn't have much contain.
       - https://www.pluralsight.com/courses/windows-server-2012-install-config-pt1
