@@ -106,6 +106,11 @@ Just some notes.
       - https://www.safaribooksonline.com/library/view/perl-fundamentals-video/9780137013142/
       - ISBN: 9780137013142
   - Nginx
-      - Beginners Guide to master the HTTP Protocol and NGINX
+    - Beginners Guide to master the HTTP Protocol and NGINX
       - https://www.udemy.com/nginx-beginner-to-advanced/
       - Instructor: Zeal Vora
+  - VIM
+    - Smash into Vim
+      - Torrent Hash: 877df6bb8ddad5c8d47a8acc3f016e9b5f2b08c4
+      - Note: (I had learned way back, but I was unable to adapt from this course, learned from thoughtbot clips and vimwiki)
+      - Note: I don't have to, its in muscle memories, but there always new way to do things.
