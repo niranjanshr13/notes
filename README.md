@@ -15,10 +15,6 @@ Just some notes.
     - Pluralsight - Hands-on Ansible
       - https://www.pluralsight.com/courses/hands-on-ansible
        - Torrent Hash: 9050123caa1d39a30393a1747efa3855d5b8e2e2
-  - Javascript
-    - Lynda - JavaScript Essential Training
-      - https://www.lynda.com/JavaScript-tutorials/JavaScript-Essential-Training/81266-2.html
-       - Torrent Hash: 0321C400969ADF7268864F1CBA3B6110C4D4F192
   - Go Language
     - Learning Path: Go Fundamentals
       - https://www.safaribooksonline.com/library/view/learning-path-go/9781491958100/
@@ -39,6 +35,10 @@ Just some notes.
   - MCSA 70-410
     - https://www.cbtnuggets.com/it-training/microsoft-windows-server-2012-training-70-410-r2
     - Torrent Hash: 63324AA4AB10DC2547356D185E42BC8D8A7C0A41
+  - Javascript
+    - Lynda - JavaScript Essential Training (not any new things)
+      - https://www.lynda.com/JavaScript-tutorials/JavaScript-Essential-Training/81266-2.html
+       - Torrent Hash: 0321C400969ADF7268864F1CBA3B6110C4D4F192
 
 
 # Complete Course:
