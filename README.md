@@ -2,6 +2,9 @@
 Just some notes.
 
 # Continuing Course:
+  - aws certified solutions architect associate
+    - aws certified solutions architect associate
+      - https://www.udemy.com/aws-certified-solutions-architect-associate/
   - DNS Server
     - Pluralsight Linux Managing DNS Servers LPIC 2
       - https://www.pluralsight.com/courses/linux-managing-dns-servers-lpic-2
