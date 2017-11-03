@@ -49,3 +49,10 @@ Glaciers
    - Transfer Acceleration
      - give a speed bump to the end-user.
      - take advantage by using cloudfront.
+
+
+
+
+
+
+~ Continue from video 016.
