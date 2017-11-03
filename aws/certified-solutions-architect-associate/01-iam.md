@@ -15,16 +15,13 @@ IAM
  	- policies = define one or more permissions
 
 ---
-IAM 
- - manage users, groups, roles and their corresponding level of access to the AWS Platform.
-
-Power User Access 
- - Access to all AWS services except for management of groups and users within IAM
-
+IAM = manage users, groups, roles and their corresponding level of access to the AWS Platform.
+Power User Access = Access to all AWS services except for management of groups and users within IAM
 root = admin access
 configuration = one place to configure user, group and roles and such.
 console = user + pass
 programmatic / command line = access key + secret key
-has 2 fa.
+secret key is only given only 1 time.
+has 2 fa for security
 new user = no access to any aws.
 policy = json
