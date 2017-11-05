@@ -76,5 +76,25 @@ CloudFront
      - RTMP = used for media streaming
  - CDN
    - A cache server around the world (nearest edge location) which sole purpose it transmit data to the user.
+ - Cloudfront Distribution
+   - Blacklist/Whitelist geo-location
+   - custom cloudfront sub-domain.
+   - default ttl = 1day
+   - behavior = a glob(regex) to allow certain file to push through the cloud-front
+   - Custom error page
+ - Security (Encryption)
+   - by default = private
+   - acls
+   - bucket policy
+   - log all the request made.
+   - type of encyption
+     - transit = ssl/tls
+     - at rest
+       - server side encyption
+         - s3 managed key - sse-s3 = encrypt with unique key, encrpyion the keychain with another master key. (rotation key) = sha512
+         - aws key management service, managed keys - SSE-KMS = key trailing, who is using the key and when it was used.
+         - server side encryption  with cusomer provided keys - SSE-C = managed key by the user.
+       - client side encryption
 
-~ Continue from video 019.
+
+~ Continue from video 021.
