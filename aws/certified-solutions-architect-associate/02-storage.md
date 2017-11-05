@@ -34,8 +34,21 @@ s3-Reduced Redundancy Storage
  - cost low.
  - mostly thumbnails.
 
+S3-Cross Region Replication (Disaster Recovery)
+ - Both source and destination's Version must be enabled.
+ - Regions must be unique
+ - File in a existing bucket are not replicated automatically. All subsequent updated files will be replicated automatically
+ - Can't replicate to multiple buckets or use daisy chaining.
+ - Delete markers are replicated. (more like a versioning)
+ - Deleting individual versions or delete markers will not be replicated.
 
-
+S3- Lifecycle Management Lab
+ - Event after certain period of time, it is done to save cost.
+ - Move to infrequent S3 (save a little bit) or to the glacier (save a lot)
+   - everything is focused on the creation time.
+   - infrequent S3 (delete marker only commit to the version).
+   - glacier delete ( this has the permanent delete after x days.)
+   - glacier has a minimum of 90 day limit. ( if the rule implies to less than 90 day, it will cost the same as the 90 day.)
 
 Glaciers
  - storage for archival.
@@ -51,8 +64,17 @@ Glaciers
      - take advantage by using cloudfront.
 
 
+CloudFront
+ - Term
+   - *Edge Location = Contain where it will be cached, it is not a AWS Region
+     - It is both read & write.
+     - Object are cache for the life of the TTL.
+     - can clear the cache early, but will be charged.
+   - *Origin = S3 bucket, EC2 instance, Elastic Load balancer, Route 53 (DNS)
+   - *Distribution = CDN which consist of the coll. of Edge Locations.
+     - Web Distribution = Used for website.
+     - RTMP = used for media streaming
+ - CDN
+   - A cache server around the world (nearest edge location) which sole purpose it transmit data to the user.
 
-
-
-
-~ Continue from video 016.
+~ Continue from video 019.
