@@ -20,7 +20,7 @@ s3
    
  - 1 data is spread across multiple devices.
  - basic
-   - http 200
+   - http 200 for success write.
  - read after write
    - not write in a file immediately
    - take a fraction to sync on other multiple copies.
@@ -97,4 +97,57 @@ CloudFront
        - client side encryption
 
 
-~ Continue from video 021.
+- Storage Gateway:
+ - connect with local storage and provide the seemless and secure to the aws infrastructure.
+ - Types of Storage Gateway
+  - File Gateway(NFS)
+  - Volume Gateway(iscsi)
+   - stored volumes
+   - cache volumes
+  - Tape Gateway (VTL) 
+
+
+- Snowball
+ - type of Snowball
+ 	- Snowball
+ 	- Snowball Edge
+ 	- Snowmobile
+ - Import and Export to S3
+ 
+- S3 Transfer Acceleration
+ - Utilized the CloudFront Edge Network,
+   - send the data to nearest data center, to upload to s3.
+   - typical url = name.s3-accelerate.amazonaws.com
+
+
+
+Create a static page in aws.
+ - just the check the bucket properties for the static.
+ - index.html
+ - error.html
+
+
+
+Summary:
+	- s3 is object based.
+	- 0 - 5TB
+	- Unlimited storage
+	- file are stored in bucket
+	- s3 is universal namespace; meaning if someone use the x' name, you can't use that name
+	- s3-eu-west-1.amazonaws.com/acloud
+	- read after write.
+	- can take a small time because the file hasn't propagate.
+	- s3 storage classes/tiers
+		- s3 = default, fast and frequently.
+		- s3 - IA = same as s3, but unfrequently.
+		- s3 - reduced redundancy storage = less durability
+		- glacier = archieve data, 3-5 hour wait.
+	- fundamental of s3
+		- key (name)
+		- value (data)
+		- version id (versions)
+			- if it once enable, can't be disabled; only suspended.
+			- lifecycle rule.
+			- can integrate MFA for deleting capability 
+		- metadata (data about data)
+		- ACL
