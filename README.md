@@ -9,18 +9,18 @@ Just some notes.
     - Pluralsight Linux Managing DNS Servers LPIC 2
       - https://www.pluralsight.com/courses/linux-managing-dns-servers-lpic-2
       - Torrent Hash: 2C194A8A48A98339F88176EF7AD28A6CC86DF3E9
-  - Ham License
-    - Technical License
-  - Ansible
-    - Pluralsight - Hands-on Ansible
-      - https://www.pluralsight.com/courses/hands-on-ansible
-       - Torrent Hash: 9050123caa1d39a30393a1747efa3855d5b8e2e2
   - Go Language
     - Learning Path: Go Fundamentals
       - https://www.safaribooksonline.com/library/view/learning-path-go/9781491958100/
       - ISBN: 9781491941874
       
 # Postpond Course:
+  - Ham License
+    - Technical License
+  - Ansible
+    - Pluralsight - Hands-on Ansible
+      - https://www.pluralsight.com/courses/hands-on-ansible
+       - Torrent Hash: 9050123caa1d39a30393a1747efa3855d5b8e2e2
   - Powershell
     - Learn Windows PowerShell in a Month of Lunches 2nd Edition  <--- will be continue, when I get my 70-410 certification
       - ISBN-10: 1617291080
