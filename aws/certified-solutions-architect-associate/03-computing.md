@@ -19,6 +19,7 @@ EC2 (Elastic Compute Cloud)
   - can purchase as a reserve for up to 70% off the on-demand price.
 
 Type:
+
 | Family        | Speciality | Use case|
 | --------- |:-------------:| -----:|
 | d2 (density)| dense storage| fileserver/hadoop|
