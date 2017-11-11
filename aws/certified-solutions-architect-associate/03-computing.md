@@ -33,4 +33,57 @@ Type:
 | p2(graphic purpose)| graphics / general purpose gpu | machine learning |
 | x1(extreme ram)| mem. optimized. | apache spark|
 
-# continue from 05-27
+
+Learning type trick:
+ - DR MC GIFT PX
+ - D = density
+ - R = ram
+ - M = main general purpose
+ - C = compute
+ - G = graphics
+ - I = IO
+ - F = FPGA
+ - T = cheap general purpose
+ - P = graphics
+ - X = extreme memory
+
+EBS: create a storage volumes and attach to ec2 instances / (block storage). can't mount in multiple ec2 instance.
+EBS type:
+ - ssd
+	- general purpose ssd (GP2)
+		- up to 10,000 iops
+ 		- balance both price & performance
+ 		- ratio of 3 iops per gb.
+	- provisioned iops ssd (io1)
+ 		- designed nosql
+ 		- use if more than 10,000 iops needed.
+ 		- up to 20,000 iops per volume.
+ - hdd
+	- throughput optimized hdd (ST1)
+		- frequently accessed workloads
+		- big data
+		- data warehouses
+		- log process
+		- can't be boot volume.
+	- cold hdd (SC1)
+		- lowest cost storage for infrequently accessed workloads
+		- file server
+		- can't be boot volume.
+	- magnetic (standard)
+		- lowest cost per gb in ebs.
+		- bootable
+		- access infrequently
+		- storage cost is important
+
+
+
+EXAM TIPS:
+know difference btwn:
+ on demand
+ spot
+ reserved
+ dedicated Host
+ ebs
+
+
+# continue from 05-29
