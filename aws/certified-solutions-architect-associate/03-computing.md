@@ -85,6 +85,12 @@ Lab Summary:
 
 
 
+# Security Group
+ - Applied immediately.
+ - Outbound doesn't matter, if inbound is applied; it will work.
+ - All ports are blocked by default.
+
+
 EXAM TIPS:
 know difference btwn:
  on demand
@@ -94,4 +100,4 @@ know difference btwn:
  ebs
 
 
-# continue from 05-32
+# continue from 05-33
