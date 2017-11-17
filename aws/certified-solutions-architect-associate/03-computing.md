@@ -76,6 +76,14 @@ EBS type:
 		- storage cost is important
 
 
+Lab Summary:
+ - Termination Protection is turned off by default
+ - root ebs volume to be deleted when the instance is terminate
+ - EBS default root volume isn't encrypted.
+ - creating a custom ami can be encrypted.
+ - additional volume can be encrypted.
+
+
 
 EXAM TIPS:
 know difference btwn:
@@ -86,4 +94,4 @@ know difference btwn:
  ebs
 
 
-# continue from 05-29
+# continue from 05-32
