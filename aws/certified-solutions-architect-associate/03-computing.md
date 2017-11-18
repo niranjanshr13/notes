@@ -129,9 +129,23 @@ EBS type:
    - aws s3 cp --recursive s3://randombucket-useast1 /tmp/ '--region' us-east-1
      - 'region' => aws cli s3 doesn't work with different region unless specify.
 
+# Bootstrap
+ - Configure Instance => Advance Drop-down.
+   - Drop-down.
+   - a bash script when the machine initially start(created)) 
 
+# Metadata of Instance.
+ - http://169.254.169.254/latest/meta-data/
 
-
+# Auto-Scaling
+ - Auto-Scaling
+   - Launch Configuration
+     - Create instance template (a group)
+     - Rule if something happen.
+       - Autogenerate another instance incase; something doesn't work
+       - Alarm: Send Email.
+       - Health Check and does its magic.
+ 
 
 ```
 # CloudTrail (Auditing, what user are doing with AWS)
@@ -146,4 +160,4 @@ know difference btwn:
  ebs
 
 
-# continue from 05-43
+# continue from 05-46
