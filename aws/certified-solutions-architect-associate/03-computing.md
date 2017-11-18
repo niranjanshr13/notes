@@ -109,8 +109,33 @@ EBS type:
  - Classic Load Balancer (tcp layer)
  - Application Load Balancer (app layer)
 
-# CloudWatch
+# CloudWatch (Logging and Monitoring)
+ - Standard Monitoring = 5 Minute
+ - Detail Monitoring = 1 Minute
+ - Dashboard: A custom dashboard what is happening.
+ - Alarms: Notify when a particular thresholds hit.
+ - Events: CloudWatch Events helps to respond to state changes in AWS resources.
+ - Logs: Help aggregate, monitor, and store logs.
 
+
+# AWS CLI
+ - command line:
+   - aws configure
+   - aws s3 ls
+ - IAM Role:
+   - aws configure (commandline) isn't required.
+   - can restrict particular service to the instance.
+ - region:
+   - aws s3 cp --recursive s3://randombucket-useast1 /tmp/ '--region' us-east-1
+     - 'region' => aws cli s3 doesn't work with different region unless specify.
+
+
+
+
+
+```
+# CloudTrail (Auditing, what user are doing with AWS)
+```
 
 # EXAM TIPS:
 know difference btwn:
@@ -121,4 +146,4 @@ know difference btwn:
  ebs
 
 
-# continue from 05-39
+# continue from 05-43
