@@ -1,4 +1,4 @@
-EC2 (Elastic Compute Cloud)
+# EC2 (Elastic Compute Cloud)
  - On Demand
   - Fixed rate/hour, no commitment. 
   - No up-front payment
@@ -18,7 +18,7 @@ EC2 (Elastic Compute Cloud)
   - purchase on-demand (hourly)
   - can purchase as a reserve for up to 70% off the on-demand price.
 
-Type:
+# Type of EC2 instances:
 
 | Family        | Speciality | Use case|
 | --------- |:-------------:| -----:|
@@ -34,7 +34,7 @@ Type:
 | x1(extreme ram)| mem. optimized. | apache spark|
 
 
-Learning type trick:
+# Learning type trick:
  - DR MC GIFT PX
  - D = density
  - R = ram
@@ -76,22 +76,43 @@ EBS type:
 		- storage cost is important
 
 
-Lab Summary:
+# Lab Summary:
  - Termination Protection is turned off by default
- - root ebs volume to be deleted when the instance is terminate
+ - Root ebs volume to be deleted when the instance is terminate
  - EBS default root volume isn't encrypted.
- - creating a custom ami can be encrypted.
- - additional volume can be encrypted.
-
-
+ - Creating a custom ami can be encrypted.
+ - Additional volume can be encrypted.
+ - Change EBS type on the fly, except magnetic standard
+ - Stop and snapshot (but not required)
+ - Volume must be in the same AZ as the EC2 instances.
 
 # Security Group
  - Applied immediately.
  - Outbound doesn't matter, if inbound is applied; it will work.
  - All ports are blocked by default.
 
+# AMI
+ - If snapshot is encrypted, its copy will also be encrypted.
+ - Share snapshot with public but shouldn't be encrypted.
 
-EXAM TIPS:
+# Instance Store
+ - Ephemeral Storage
+ - It can't be stopped.
+ - If the instance fail, all data is gone.
+ - Can be reboot without loosing data.
+ - It deleted, volume also get deleted. (not in EBS volume(instance))
+
+# Elastic Load Balancers
+ - Reported as: In-Service or Out-of-Service
+ - Health Checks by get request.
+ - Only DNS name, not IP address.
+ - Classic Load Balancer (tcp layer)
+ - Application Load Balancer (app layer)
+
+# CloudWatch
+
+
+# EXAM TIPS:
 know difference btwn:
  on demand
  spot
@@ -100,4 +121,4 @@ know difference btwn:
  ebs
 
 
-# continue from 05-33
+# continue from 05-39
