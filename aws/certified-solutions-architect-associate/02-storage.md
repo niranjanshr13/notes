@@ -25,7 +25,15 @@
    - not write in a file immediately
    - take a fraction to sync on other multiple copies.
  - storage tiers
-   - ![storage-tiers](s3-storage-tiers.png) 
+
+| |Standard | Standard - Infrequent Access| Reduced Redundancy|
+| --------- |:-------------:| -----:|----:|
+| Durability| 99.999999999% | 99.999999999%| 99.99%|
+| Availability| 99.99%| 99.9%| 99.99%|
+| Concurrent facility fault tolerance| 2| 2| 1|
+| SSL support| Yes| Yes| Yes|
+| First byte latency| Millisecond| Millisecond| Millisecond |
+| Life-cycle Management Policies| Yes|Yes|Yes|
 
 # Types of S3
 ## S3-IA
@@ -128,18 +136,6 @@ Create a static page in aws.
  - index.html
  - error.html
 ```
-
-# Storage Tiers
-
-| |Standard | Standard - Infrequent Access| Reduced Redundancy|
-| --------- |:-------------:| -----:|----:|
-| Durability| 99.999999999% | 99.999999999%| 99.99%|
-| Availability| 99.99%| 99.9%| 99.99%|
-| Concurrent facility fault tolerance| 2| 2| 1|
-| SSL support| Yes| Yes| Yes|
-| First byte latency| Millisecond| Millisecond| Millisecond |
-| Life-cycle Management Policies| Yes|Yes|Yes|
-
 
 
 # Summary:
