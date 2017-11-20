@@ -1,4 +1,4 @@
-s3
+#S3 
  - object based storage. 
    - key = filename of the object
    - value = data of the file
@@ -27,9 +27,10 @@ s3
  - storage tiers
    - ![storage-tiers](s3-storage-tiers.png) 
 
-s3-IA
+# Types of S3
+## S3-IA
  - similar to s3 but should be used as infrequently accessed.
-s3-Reduced Redundancy Storage
+## S3-Reduced Redundancy Storage
  - data should be easily regenerate
  - cost low.
  - mostly thumbnails.
@@ -42,6 +43,7 @@ S3-Cross Region Replication (Disaster Recovery)
  - Delete markers are replicated. (more like a versioning)
  - Deleting individual versions or delete markers will not be replicated.
 
+
 S3- Lifecycle Management Lab
  - Event after certain period of time, it is done to save cost.
  - Move to infrequent S3 (save a little bit) or to the glacier (save a lot)
@@ -50,7 +52,7 @@ S3- Lifecycle Management Lab
    - glacier delete ( this has the permanent delete after x days.)
    - glacier has a minimum of 90 day limit. ( if the rule implies to less than 90 day, it will cost the same as the 90 day.)
 
-Glaciers
+# Glaciers
  - storage for archival.
  - Cost = $0.01 / gigabyte / month
  - retrieval time = 3-5 hours.
@@ -64,7 +66,7 @@ Glaciers
      - take advantage by using cloudfront.
 
 
-CloudFront
+# CloudFront
  - Term
    - *Edge Location = Contain where it will be cached, it is not a AWS Region
      - It is both read & write.
@@ -97,7 +99,7 @@ CloudFront
        - client side encryption
 
 
-- Storage Gateway:
+# Storage Gateway:
  - connect with local storage and provide the seemless and secure to the aws infrastructure.
  - Types of Storage Gateway
   - File Gateway(NFS)
@@ -107,28 +109,28 @@ CloudFront
   - Tape Gateway (VTL) 
 
 
-- Snowball
+# Snowball
  - type of Snowball
  	- Snowball
  	- Snowball Edge
  	- Snowmobile
  - Import and Export to S3
  
-- S3 Transfer Acceleration
+# S3 Transfer Acceleration
  - Utilized the CloudFront Edge Network,
    - send the data to nearest data center, to upload to s3.
    - typical url = name.s3-accelerate.amazonaws.com
 
 
-
+```
 Create a static page in aws.
  - just the check the bucket properties for the static.
  - index.html
  - error.html
+```
 
 
-
-Summary:
+# Summary:
 	- s3 is object based.
 	- 0 - 5TB
 	- Unlimited storage

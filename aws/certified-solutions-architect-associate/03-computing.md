@@ -146,6 +146,29 @@ EBS type:
        - Alarm: Send Email.
        - Health Check and does its magic.
  
+# Placement Group
+ - A logical grouping of instances within a single AZ.
+ - Low Latency; high throughput; 10Gbps.
+ - EC2 Placement Group:
+   - Single point of failure.
+   - Can't be spread in multiple AZ.
+   - Must have Unique Name
+   - Only certain type of instance can be launched.
+   - Recommend homogenous(same size and same family type)
+   - Can't merge placement group.
+   - Can't move instance but can create(snapshot) of AMI in Placement Group.
+
+# EFS( Elastic Filesystem)
+ - Filesystem for EC2 Instance
+ - Elastic; expand and shrink on demand.
+ - Support NFSv4 (1000 concurrent) ; NFS feature; group 
+ - Pay for storage use.
+ - no pre-provisioning
+ - Scale upto 1PB.
+ - Stored multiple AZ's within a region
+ - Read after write.
+
+
 
 ```
 # CloudTrail (Auditing, what user are doing with AWS)
@@ -160,4 +183,4 @@ know difference btwn:
  ebs
 
 
-# continue from 05-46
+# continue from 05-50

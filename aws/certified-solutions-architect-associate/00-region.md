@@ -1,7 +1,7 @@
-aws region
+# AWS region
  - at least 2 availability zones
  - provide high availability to a specific geography.
 
-availability zones
+# Availability zones
  - region that are engineered to be isolated from failures
 
