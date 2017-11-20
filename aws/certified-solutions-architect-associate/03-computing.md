@@ -169,18 +169,10 @@ EBS type:
  - Read after write.
 
 
-
 ```
 # CloudTrail (Auditing, what user are doing with AWS)
 ```
 
-# EXAM TIPS:
-know difference btwn:
- on demand
- spot
- reserved
- dedicated Host
- ebs
 
-
-# continue from 05-50
+# Summary:
+ - Read the above note.
