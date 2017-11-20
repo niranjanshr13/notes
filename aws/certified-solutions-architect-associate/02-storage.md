@@ -131,7 +131,7 @@ Create a static page in aws.
 
 # Storage Tiers
 
-| ||Standard | Standard - Infrequent Access| Reduced Redundancy|
+| |Standard | Standard - Infrequent Access| Reduced Redundancy|
 | --------- |:-------------:| -----:|----:|
 | Durability| 99.999999999% | 99.999999999%| 99.99%|
 | Availability| 99.99%| 99.9%| 99.99%|
