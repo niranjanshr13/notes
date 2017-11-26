@@ -60,6 +60,72 @@
    - Read = 0.0065 per hour for every 50 units.
    - Storage = 0.25/GB.
 
+# RedShift (10x time faster)
+ - Definition:
+   - Data warehousing services.
+   - Highly scale-able; 1PB.
+   - Fast, and fully managed
+   - $0.25 per hour.
+   - $1000 per terabyte/ year. 
+   - Cheaper than other services.
+ - Configuration:
+   - Start in Single Node (160Gb)
+   - Multi-Node:
+     - Leader Node: manages client connections and recives queries.
+     - Compute Node: Store data and perform queries and computation. Up to 128 compute nodes.
+
+ - Columnar Data Storage:
+   - Organize data by column
+   - Ideal for transaction processing, column based systems are ideal for data warehousing and analytics.
+   - Require few I/O's, improving query performance.
+ - Advance Compression:
+   - Store much more data than row based data.
+   - Most of data are same or have similar type to it. 
+   - It will use its own compression technique to compress data.
+   - It doesn't require indexes; causing less storage.
+   - It will choose the compression scheme.
+
+ - Massive Parallel Processing (MPP):
+   - Automatically distributes data and query load across all nodes.
+   - Make it easy to add nodes to your data warehouse.
+
+ - Pricing:
+   - Compute Node Hours:
+     - Total no of hours you run across your compute node.
+     - Billed 1 unit per node per hour.
+     - Example:
+       - 3 node * (24 * 30) = 2160 instance hours.
+     - Will not be charged for leader node hours.
+     - Only Compute node will be charged.
+   - will be charged for Backup
+   - data transfer (only within a VPC, not outside it)
+
+ - Security
+   - Transit = SSL
+   - Rest = AES-256
+   - By default take care of key management.
+     - Manage own keys through HS
+     - AWS Key Management Service.
+
+ - Availability
+   - Currently 1 AZ.
+   - Can restore snapshots to new AZ in the event of an outrage.
 
 
-# Continue from 07-67
+# Elasticache:
+ - Definition
+   - web service that makes it easy to deploy, operate, and scale and in-memory cache in the cloud.
+   - Improve speed by using in-memory caches, not using a disk-based storage.
+   - Basically caching everything.
+ - Types:
+   - Memcached = Object cache system.
+   - Redis = Key value store system.
+     - Cross AZ redundancy
+
+
+- Exam Tips:
+ - Elasticache = Read heavy and not frequently changing.
+ - Redshift = Management key running OLAP transactions.
+
+
+# Continue from 07-69
