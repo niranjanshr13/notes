@@ -111,7 +111,6 @@
    - Currently 1 AZ.
    - Can restore snapshots to new AZ in the event of an outrage.
 
-
 # Elasticache:
  - Definition
    - web service that makes it easy to deploy, operate, and scale and in-memory cache in the cloud.
@@ -122,10 +121,8 @@
    - Redis = Key value store system.
      - Cross AZ redundancy
 
-
 - Exam Tips:
  - Elasticache = Read heavy and not frequently changing.
  - Redshift = Management key running OLAP transactions.
-
 
 # Continue from 07-69

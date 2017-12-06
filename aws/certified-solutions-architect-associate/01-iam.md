@@ -10,14 +10,14 @@
 
  - Term 
  	- user
- 	- groups = coll of User
+ 	- groups = coll of user
  	- roles = assign aws resources to user/group
  	- policies = define one or more permissions
-
 
 IAM = manage users, groups, roles and their corresponding level of access to the AWS Platform.
 Power User Access = Access to all AWS services except for management of groups and users within IAM
 root = admin access
+
 ## Configuration:
  - one place to configure user, group and roles and such.
  - Types:
