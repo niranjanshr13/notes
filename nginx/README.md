@@ -6,7 +6,6 @@ Instructor: Zeal Vora
 Url: https://www.udemy.com/nginx-beginner-to-advanced/
 ```
 
-
 ```
 Note:
     - I ignored cryptography module; because it is same as other.

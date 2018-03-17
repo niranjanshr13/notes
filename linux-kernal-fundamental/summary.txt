@@ -57,9 +57,6 @@
      - make modules_install         <--- need root for this
       - modules in installed in /lib/modules/xxxx-<EXTRAVERSION>
 
-
-
-
 ---
 remember; test question isn't summarized
 ---

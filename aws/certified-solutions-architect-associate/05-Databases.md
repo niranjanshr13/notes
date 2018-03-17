@@ -125,4 +125,61 @@
  - Elasticache = Read heavy and not frequently changing.
  - Redshift = Management key running OLAP transactions.
 
-# Continue from 07-69
+# Aurora
+ - Definition
+   - Aurora is a MySQL compatibility,
+   - relational database engine.
+   - combine speed and availability of high-end comm. database
+   - 5x faster than MySql
+ - Scaling:
+  - Starts with 10Gb.
+  - Scale increments to 64Tb
+  - Compute resource 32vCPUs and 244Gb of Memory.
+  - 2 copies of you data in each availability zone.
+  - minimum of 3 AZ. Total 6 copies of data.
+  - Transparently handle the loss of up to two without affecting database write availability. + 3 copies without affecting read availability.
+  - Storage is self-healing.
+ - Replicas.
+  - 2 Types:
+   - Aurora Replicas (currently 15)
+   - MySQL read Replicas (currently 5)
+
+
+
+# Summary
+ - RDS-OLTP
+  - SQL
+  - MySQL
+  - PostgreSQL
+  - Oracle
+  - Aurora
+  - Mariadb
+ - DynamoDB - NoSQl
+ - Redshift - OLAP
+ - Elasticache - In memory caching.
+  - Memcached
+  - Redis
+ - Multi-AZ
+  - Fail-over to replica
+  - Don't have to assign the end-point.
+ - Read Replica:
+  - If the app does read a lot, can create a replica to load-balance the reading.
+  - Read replica by the writer.
+  - 5 Replica.
+ - Aurora:
+  - Same as above.
+ - DynamoDB vs RDS
+  - Dynamodb doesnt have downtime can scale with any lag.
+  - Dynamodb is on SSD and spread to 3 GEO-center.
+  - Eventual Consistent Reads (Default), it is fast but no that fast.
+  - Strongly Consistent Reads, it is god-speed.
+  - RDS => just look at mysql you know it time to scale up.
+ - Redshift Configuration
+  - Single Node (160Gb)
+  - Multi-Node
+   - Leader Node (manage client connection and receives queries)
+   - Compute Node (store data and perform queries) up-to 128 compute node.
+ - Elasticache
+  - In-memory cache.
+   - Memcached
+   - Redis

@@ -33,5 +33,4 @@
 ```
 https://www.youtube.com/watch?v=YFl2mCHdv24&list=WL
 https://www.youtube.com/playlist?list=PLkA60AVN3hh_6cAz8TUGtkYbJSL2bdZ4h      <--- I really didn't learn from him.
-
 ```

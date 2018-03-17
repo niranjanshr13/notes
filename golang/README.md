@@ -3,6 +3,4 @@
 - ISBN: 9781491941874
 - Publisher: O'Reilly Media, Inc.
 
-
-
 -- need to be continued from 'be continued from 11'

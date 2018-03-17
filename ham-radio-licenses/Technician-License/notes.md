@@ -64,11 +64,8 @@ ITU
 --continue from t1b11
 
 
-
-
-
 * Note:
-	-	Page 1 Done.
-	-	need to write
-		-	t1b09
-		-	t1b11
+  - Page 1 Done.
+    - need to write
+      - t1b09
+      - t1b11
