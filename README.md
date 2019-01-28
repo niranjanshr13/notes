@@ -95,3 +95,6 @@ Just some notes.
     - Smash into Vim
       - Note: I had learned way back, but I was unable to adapt from this course, learned from thoughtbot clips and vimwiki
       - Note: I don't have to, its in muscle memories, but there always new way to do things.
+  - C Language
+    - C Programming For Beginners With Examples
+      - https://www.udemy.com/c-programming-for-beginners2/
